@@ -1,0 +1,25 @@
+{
+  "id": "ring-001",
+  "slug": "22kt-gold-lotus-ring",
+  "name": "22kt Gold Lotus Ring",
+  "price": 24500,
+  "salePrice": null,
+  "category": "Rings",
+  "subcategory": "Statement",
+  "material": "22kt Gold",
+  "purity": "BIS Hallmarked",
+  "weight": "4.2g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["bridal", "gifting", "gold"],
+  "images": [
+    "/images/products/ring-001-a.jpg",
+    "/images/products/ring-001-b.jpg"
+  ],
+  "description": "Handcrafted lotus ring in 22kt gold. Each petal is individually set for maximum light play, inspired by South Indian temple jewellery. Delivered in a signature gift box.",
+  "collection": "bridal",
+  "careInstructions": "Avoid wearing while washing hands or swimming. Store separately to prevent scratching.",
+  "shipping": "Ships within 3–5 business days. Free shipping on orders above ₹1000.",
+  "returns": "Returns accepted within 7 days in original, unworn condition with intact packaging."
+}

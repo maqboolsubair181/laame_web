@@ -1,0 +1,25 @@
+{
+  "id": "ring-002",
+  "slug": "stackable-gold-band",
+  "name": "Stackable Gold Band",
+  "price": 9800,
+  "salePrice": null,
+  "category": "Rings",
+  "subcategory": "Stackable",
+  "material": "18kt Gold",
+  "purity": "BIS Hallmarked",
+  "weight": "2.1g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": ["everyday", "minimal", "stackable"],
+  "images": [
+    "/images/products/ring-002-a.jpg",
+    "/images/products/ring-002-b.jpg"
+  ],
+  "description": "A smooth, high-polished 18kt gold band — the foundation of any ring stack. Wear it alone for quiet confidence or layer two or three for a curated, editorial look. Available in sizes 5–14.",
+  "collection": "everyday",
+  "careInstructions": "Remove before exercising or household work. Store in the provided pouch.",
+  "shipping": "Ships within 3–5 business days. Free shipping on orders above ₹1000.",
+  "returns": "Returns accepted within 7 days in original, unworn condition with intact packaging."
+}

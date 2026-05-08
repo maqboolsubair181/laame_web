@@ -1,0 +1,25 @@
+{
+  "id": "ear-002",
+  "slug": "diamond-chandbali",
+  "name": "Diamond Chandbali",
+  "price": 42000,
+  "salePrice": 37800,
+  "category": "Earrings",
+  "subcategory": "Chandbalis",
+  "material": "18kt Gold & Diamond",
+  "purity": "BIS Hallmarked",
+  "weight": "6.1g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["bridal", "diamond", "festive", "gifting"],
+  "images": [
+    "/images/products/ear-002-a.jpg",
+    "/images/products/ear-002-b.jpg"
+  ],
+  "description": "The crescent moon silhouette of the chandbali, reimagined with a scatter of VS-clarity diamonds. Set in 18kt yellow gold with a secure omega clasp. A statement piece for weddings, receptions, and festive evenings.",
+  "collection": "bridal",
+  "careInstructions": "Store in the provided box away from sunlight. Clean with a soft, dry cloth only.",
+  "shipping": "Ships within 3–5 business days. Free shipping on orders above ₹1000.",
+  "returns": "Returns accepted within 7 days in original, unworn condition with intact packaging."
+}

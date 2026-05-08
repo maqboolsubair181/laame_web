@@ -1,0 +1,25 @@
+{
+  "id": "neck-002",
+  "slug": "diamond-solitaire-pendant",
+  "name": "Diamond Solitaire Pendant",
+  "price": 31500,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Pendants & Chains",
+  "material": "18kt Gold & Diamond",
+  "purity": "BIS Hallmarked",
+  "weight": "2.8g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": ["everyday", "gifting", "diamond", "minimal"],
+  "images": [
+    "/images/products/neck-002-a.jpg",
+    "/images/products/neck-002-b.jpg"
+  ],
+  "description": "A single 0.15ct round brilliant diamond, prong-set in 18kt white gold, suspended on a delicate 16-inch chain. Understated. Unforgettable. The kind of piece you reach for every morning.",
+  "collection": "everyday",
+  "careInstructions": "Clean with mild soap and a soft toothbrush. Store in the provided box away from other jewellery.",
+  "shipping": "Ships within 3–5 business days. Free shipping on orders above ₹1000.",
+  "returns": "Returns accepted within 7 days in original, unworn condition with intact packaging."
+}

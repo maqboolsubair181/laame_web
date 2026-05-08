@@ -1,0 +1,25 @@
+{
+  "id": "brac-001",
+  "slug": "gold-tennis-bracelet",
+  "name": "Gold Tennis Bracelet",
+  "price": 28500,
+  "salePrice": 25000,
+  "category": "Bracelets",
+  "subcategory": "Tennis",
+  "material": "18kt Gold & CZ",
+  "purity": "BIS Hallmarked",
+  "weight": "7.6g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["gifting", "everyday", "gold"],
+  "images": [
+    "/images/products/brac-001-a.jpg",
+    "/images/products/brac-001-b.jpg"
+  ],
+  "description": "Understated luxury in its purest form. A row of precisely-cut cubic zirconia stones set flush in 18kt gold, secured with a box clasp that clicks with quiet confidence. Wear solo or stack with our charm bracelets.",
+  "collection": "everyday",
+  "careInstructions": "Store flat. Avoid contact with lotion and perfume. Polish gently with a microfibre cloth.",
+  "shipping": "Ships within 3–5 business days. Free shipping on orders above ₹1000.",
+  "returns": "Returns accepted within 7 days in original, unworn condition with intact packaging."
+}
