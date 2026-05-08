@@ -1,6 +1,6 @@
 export const useWhatsAppOrder = () => {
   const config = useRuntimeConfig()
-  const PHONE = config.public.whatsappPhone || '919876543210'
+  const PHONE = config.public.whatsappPhone || '919744421599'
 
   const openWhatsApp = (items, total, customer) => {
     const lines = items

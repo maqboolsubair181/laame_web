@@ -1,0 +1,21 @@
+{
+  "id": "ear-001",
+  "slug": "elegant-crystal-stone-dangler",
+  "name": "Elegant Crystal Stone Dangler",
+  "price": 2500,
+  "salePrice": null,
+  "category": "Earrings",
+  "subcategory": "Drop & Danglers",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "5.0g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["crystal", "party", "dangler"],
+  "images": [
+    "/images/products/earrings1.jpg"
+  ],
+  "description": "A stunning elegant crystal stone dangler to complement any evening dress or party wear. Features a delicate finish with high-quality stones.",
+  "collection": "party"
+}

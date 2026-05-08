@@ -29,7 +29,7 @@
       <div class="order-1 md:order-2 relative">
         <div class="aspect-[4/5] md:aspect-[3/4] overflow-hidden bg-[#F0ECE4] relative">
           <NuxtImg
-            src="/images/hero-jewellery.jpg"
+            src="/images/cover1.png"
             alt="Laame Jewels — Handcrafted Gold Jewellery"
             class="w-full h-full object-cover object-center"
             width="700"

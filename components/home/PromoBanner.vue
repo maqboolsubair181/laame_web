@@ -2,7 +2,7 @@
   <section class="relative overflow-hidden bg-[#1C1C1C] my-0">
     <div class="absolute inset-0">
       <NuxtImg
-        src="/images/promo-banner.jpg"
+        src="/images/cover2.jpg"
         alt="Laame Jewels Bridal Collection"
         class="w-full h-full object-cover opacity-40"
         width="1400"

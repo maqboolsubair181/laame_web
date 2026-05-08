@@ -1,0 +1,21 @@
+{
+  "id": "neck-001",
+  "slug": "gold-plated-minimal-rectangle-crystal",
+  "name": "Gold-Plated Minimal Rectangle Crystal",
+  "price": 1500,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Pendants & Chains",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "4.0g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["minimalist", "crystal", "pendant"],
+  "images": [
+    "/images/products/necklace1.jpg"
+  ],
+  "description": "A chic minimalist necklace featuring a delicate rectangular crystal pendant on a gold-plated chain. Perfect for everyday wear.",
+  "collection": "minimalist"
+}

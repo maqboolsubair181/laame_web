@@ -4,7 +4,7 @@
     <div class="relative overflow-hidden bg-[#1C1C1C]">
       <div class="absolute inset-0 opacity-30">
         <NuxtImg
-          src="/images/about-hero.jpg"
+          src="/images/cover3.webp"
           alt="Laame Jewels Workshop"
           class="w-full h-full object-cover"
           width="1400"

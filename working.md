@@ -146,15 +146,12 @@ npm run dev
 ## Known Issues / TODOs
 
 - `#app-manifest` Vite pre-transform warnings: cosmetic only, doesn't break SSR
-- Product images are AI-generated placeholders → replace with real photography
-- WhatsApp number is `919876543210` (placeholder) → update in `nuxt.config.ts` runtimeConfig
+- WhatsApp number is `919744421599` → updated in `nuxt.config.ts` runtimeConfig
 - No real payment gateway — checkout is purely WhatsApp based
 
 ---
 
 ## Next Steps (if continuing work)
 
-1. Replace placeholder product images with real jewellery photos
-2. Add more products to `content/products/`
-3. Update WhatsApp phone number in nuxt.config.ts
-4. Connect to real image CDN via `@nuxt/image` provider config
+1. Review and refine product details in JSON.
+2. Connect to real image CDN via `@nuxt/image` provider config if necessary.

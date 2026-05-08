@@ -1,0 +1,21 @@
+{
+  "id": "neck-002",
+  "slug": "dainty-double-layered-heart",
+  "name": "Dainty Double Layered Heart",
+  "price": 2200,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Layered",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "6.5g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["heart", "layered", "dainty"],
+  "images": [
+    "/images/products/necklace2.jpg"
+  ],
+  "description": "Show your love with this dainty double layered heart necklace. Elegant, romantic, and versatile.",
+  "collection": "romantic"
+}

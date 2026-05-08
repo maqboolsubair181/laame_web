@@ -1,0 +1,21 @@
+{
+  "id": "ring-001",
+  "slug": "18k-gold-plated-rose-flower",
+  "name": "18K Gold-Plated Rose Flower",
+  "price": 1800,
+  "salePrice": null,
+  "category": "Rings",
+  "subcategory": "Statement",
+  "material": "18K Gold Plated",
+  "purity": "Standard",
+  "weight": "3.2g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["rose", "floral", "statement"],
+  "images": [
+    "/images/products/ring1.jpg"
+  ],
+  "description": "Beautiful 18K gold-plated ring featuring a rose flower design. An elegant piece that serves as a beautiful statement for any outfit.",
+  "collection": "floral"
+}

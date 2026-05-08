@@ -1,0 +1,21 @@
+{
+  "id": "brac-001",
+  "slug": "floral-crystal-bracelet",
+  "name": "Floral Crystal",
+  "price": 3200,
+  "salePrice": null,
+  "category": "Bracelets",
+  "subcategory": "Chain",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "8.5g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["floral", "crystal", "bracelet"],
+  "images": [
+    "/images/products/bracelet1.jpg"
+  ],
+  "description": "An exquisite floral crystal bracelet perfect for special occasions. Designed to shine elegantly on your wrist.",
+  "collection": "floral"
+}

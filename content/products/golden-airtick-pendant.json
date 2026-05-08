@@ -1,0 +1,21 @@
+{
+  "id": "neck-003",
+  "slug": "golden-airtick-pendant",
+  "name": "Golden Airtick Pendant",
+  "price": 1900,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Pendants & Chains",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "5.2g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": ["pendant", "gold"],
+  "images": [
+    "/images/products/necklace3.jpg"
+  ],
+  "description": "A unique golden airtick pendant necklace that adds a subtle charm to any outfit. A must-have for your jewelry collection.",
+  "collection": "minimalist"
+}
