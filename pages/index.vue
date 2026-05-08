@@ -21,7 +21,6 @@
       view-all-link="/shop?filter=new"
     />
 
-    <Testimonials />
   </div>
 </template>
 
