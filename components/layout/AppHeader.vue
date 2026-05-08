@@ -105,68 +105,68 @@
         </div>
       </div>
     </div>
-
-    <!-- Mobile Slide Menu -->
-    <Transition name="slide-left">
-      <div
-        v-if="mobileOpen"
-        class="fixed inset-0 z-[60] flex md:hidden"
-      >
-        <div class="absolute inset-0 bg-black/40" @click="mobileOpen = false" />
-        <nav class="relative w-[300px] bg-[#FAF8F5] h-full overflow-y-auto flex flex-col">
-          <div class="flex items-center justify-between px-6 py-5 border-b border-[#E8D5A3]">
-            <span class="font-serif text-xl">Menu</span>
-            <button @click="mobileOpen = false" class="text-[#7A7A7A]">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                <path d="M2 2L18 18M18 2L2 18" stroke="#1C1C1C" stroke-width="1.5"/>
-              </svg>
-            </button>
-          </div>
-
-          <div class="px-6 py-6 flex flex-col gap-1">
-            <NuxtLink to="/shop?filter=new" class="mobile-link" @click="mobileOpen = false">What's New</NuxtLink>
-
-            <NuxtLink
-              v-for="cat in navCategories"
-              :key="cat.name"
-              :to="`/shop?category=${encodeURIComponent(cat.name)}`"
-              class="mobile-link"
-              @click="mobileOpen = false"
-            >{{ cat.name }}</NuxtLink>
-          </div>
-
-          <div class="px-6 py-4 mt-auto border-t border-[#E8D5A3]">
-            <NuxtLink to="/about" class="mobile-link" @click="mobileOpen = false">About Us</NuxtLink>
-          </div>
-        </nav>
-      </div>
-    </Transition>
-
-    <!-- Search Overlay -->
-    <Transition name="fade">
-      <div
-        v-if="searchOpen"
-        class="fixed inset-0 z-[70] bg-[#FAF8F5]/98 flex flex-col items-center justify-start pt-32 px-4"
-        @keydown.esc="searchOpen = false"
-      >
-        <button class="absolute top-6 right-8 text-[#7A7A7A] hover:text-[#1C1C1C]" @click="searchOpen = false">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M3 3L21 21M21 3L3 21" stroke="#1C1C1C" stroke-width="1.5"/>
-          </svg>
-        </button>
-        <p class="label mb-4">Search</p>
-        <input
-          ref="searchInput"
-          v-model="searchQuery"
-          type="text"
-          placeholder="Search for earrings, necklaces, rings…"
-          class="input-field max-w-2xl text-lg py-4 text-center"
-          @keydown.enter="doSearch"
-          autofocus
-        />
-      </div>
-    </Transition>
   </header>
+
+  <!-- Mobile Slide Menu -->
+  <Transition name="slide-left">
+    <div
+      v-if="mobileOpen"
+      class="fixed inset-0 z-[60] flex md:hidden"
+    >
+      <div class="absolute inset-0 bg-black/40" @click="mobileOpen = false" />
+      <nav class="relative w-[300px] bg-[#FAF8F5] h-full overflow-y-auto flex flex-col">
+        <div class="flex items-center justify-between px-6 py-5 border-b border-[#E8D5A3]">
+          <span class="font-serif text-xl">Menu</span>
+          <button @click="mobileOpen = false" class="text-[#7A7A7A]">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M2 2L18 18M18 2L2 18" stroke="#1C1C1C" stroke-width="1.5"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="px-6 py-6 flex flex-col gap-1">
+          <NuxtLink to="/shop?filter=new" class="mobile-link" @click="mobileOpen = false">What's New</NuxtLink>
+
+          <NuxtLink
+            v-for="cat in navCategories"
+            :key="cat.name"
+            :to="`/shop?category=${encodeURIComponent(cat.name)}`"
+            class="mobile-link"
+            @click="mobileOpen = false"
+          >{{ cat.name }}</NuxtLink>
+        </div>
+
+        <div class="px-6 py-4 mt-auto border-t border-[#E8D5A3]">
+          <NuxtLink to="/about" class="mobile-link" @click="mobileOpen = false">About Us</NuxtLink>
+        </div>
+      </nav>
+    </div>
+  </Transition>
+
+  <!-- Search Overlay -->
+  <Transition name="fade">
+    <div
+      v-if="searchOpen"
+      class="fixed inset-0 z-[70] bg-[#FAF8F5]/98 flex flex-col items-center justify-start pt-32 px-4"
+      @keydown.esc="searchOpen = false"
+    >
+      <button class="absolute top-6 right-8 text-[#7A7A7A] hover:text-[#1C1C1C]" @click="searchOpen = false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M3 3L21 21M21 3L3 21" stroke="#1C1C1C" stroke-width="1.5"/>
+        </svg>
+      </button>
+      <p class="label mb-4">Search</p>
+      <input
+        ref="searchInput"
+        v-model="searchQuery"
+        type="text"
+        placeholder="Search for earrings, necklaces, rings…"
+        class="input-field max-w-2xl text-lg py-4 text-center"
+        @keydown.enter="doSearch"
+        autofocus
+      />
+    </div>
+  </Transition>
 </template>
 
 <script setup>
