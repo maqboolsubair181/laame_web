@@ -39,8 +39,8 @@
           <!-- Floating tag -->
           <div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-3 border-l-2 border-[#B8942E]">
             <p class="text-[10px] tracking-[0.15em] uppercase text-[#7A7A7A] mb-0.5">Bestseller</p>
-            <p class="font-serif text-base text-[#1C1C1C]">Temple Gold Jhumka</p>
-            <p class="text-xs text-[#B8942E] mt-0.5">₹18,500</p>
+            <p class="font-serif text-base text-[#1C1C1C]">Golden Airtick Pendant</p>
+            <p class="text-xs text-[#B8942E] mt-0.5">₹1,900</p>
           </div>
         </div>
 

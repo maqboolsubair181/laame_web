@@ -114,7 +114,7 @@ const collectionLinks = [
   { label: 'Earrings', href: '/shop?category=Earrings' },
   { label: 'Necklaces', href: '/shop?category=Necklaces' },
   { label: 'Rings', href: '/shop?category=Rings' },
-  { label: 'Bridal Sets', href: '/shop?category=Bridal+Sets' },
+  { label: 'Bracelets', href: '/shop?category=Bracelets' },
   { label: 'All Jewellery', href: '/shop' },
 ]
 

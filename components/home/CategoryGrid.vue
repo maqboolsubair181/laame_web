@@ -6,7 +6,7 @@
         <h2 class="section-title">Explore Our Collections</h2>
       </div>
 
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
         <NuxtLink
           v-for="cat in categories"
           :key="cat.name"
@@ -41,7 +41,5 @@ const categories = [
   { name: 'Necklaces', image: '/images/categories/necklaces.jpg' },
   { name: 'Rings', image: '/images/categories/rings.jpg' },
   { name: 'Bracelets', image: '/images/categories/bracelets.jpg' },
-  { name: 'Bangles & Anklets', image: '/images/categories/bangles.jpg' },
-  { name: 'Bridal Sets', image: '/images/categories/bridal.jpg' },
 ]
 </script>

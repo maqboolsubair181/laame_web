@@ -41,42 +41,12 @@
             class="nav-link"
           >What's New</NuxtLink>
 
-          <div
+          <NuxtLink
             v-for="cat in navCategories"
             :key="cat.name"
-            class="relative group"
-            @mouseenter="activeMenu = cat.name"
-            @mouseleave="activeMenu = null"
-          >
-            <button class="nav-link flex items-center gap-1">
-              {{ cat.name }}
-              <svg width="10" height="6" viewBox="0 0 10 6" fill="none" class="transition-transform duration-200 group-hover:rotate-180">
-                <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.2"/>
-              </svg>
-            </button>
-
-            <!-- Mega Menu -->
-            <Transition name="mega">
-              <div
-                v-if="activeMenu === cat.name"
-                class="absolute top-full left-1/2 -translate-x-1/2 w-56 bg-[#FAF8F5] border border-[#E8D5A3] shadow-lg pt-4 pb-6 px-6 mt-2"
-              >
-                <p class="label text-[10px] mb-4">{{ cat.name }}</p>
-                <ul class="space-y-2.5">
-                  <li v-for="sub in cat.subs" :key="sub">
-                    <NuxtLink
-                      :to="`/shop?category=${encodeURIComponent(cat.name)}&sub=${encodeURIComponent(sub)}`"
-                      class="text-sm text-[#1C1C1C] hover:text-[#B8942E] transition-colors duration-200"
-                      @click="activeMenu = null"
-                    >{{ sub }}</NuxtLink>
-                  </li>
-                </ul>
-              </div>
-            </Transition>
-          </div>
-
-          <NuxtLink to="/shop?category=Bangles+%26+Anklets" class="nav-link">Bangles & Anklets</NuxtLink>
-          <NuxtLink to="/shop?category=Bridal+Sets" class="nav-link">Bridal Sets</NuxtLink>
+            :to="`/shop?category=${encodeURIComponent(cat.name)}`"
+            class="nav-link"
+          >{{ cat.name }}</NuxtLink>
 
           <div
             class="relative group"
@@ -156,29 +126,13 @@
           <div class="px-6 py-6 flex flex-col gap-1">
             <NuxtLink to="/shop?filter=new" class="mobile-link" @click="mobileOpen = false">What's New</NuxtLink>
 
-            <div v-for="cat in navCategories" :key="cat.name">
-              <button
-                class="mobile-link w-full text-left flex justify-between items-center"
-                @click="toggleMobileSub(cat.name)"
-              >
-                {{ cat.name }}
-                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" :class="['transition-transform duration-200', mobileSub === cat.name && 'rotate-180']">
-                  <path d="M1 1L5 5L9 1" stroke="#7A7A7A" stroke-width="1.2"/>
-                </svg>
-              </button>
-              <div v-if="mobileSub === cat.name" class="pl-4 mt-1 mb-2 space-y-2">
-                <NuxtLink
-                  v-for="sub in cat.subs"
-                  :key="sub"
-                  :to="`/shop?category=${encodeURIComponent(cat.name)}&sub=${encodeURIComponent(sub)}`"
-                  class="block text-sm text-[#7A7A7A] hover:text-[#B8942E] transition-colors py-1"
-                  @click="mobileOpen = false"
-                >{{ sub }}</NuxtLink>
-              </div>
-            </div>
-
-            <NuxtLink to="/shop?category=Bangles+%26+Anklets" class="mobile-link" @click="mobileOpen = false">Bangles & Anklets</NuxtLink>
-            <NuxtLink to="/shop?category=Bridal+Sets" class="mobile-link" @click="mobileOpen = false">Bridal Sets</NuxtLink>
+            <NuxtLink
+              v-for="cat in navCategories"
+              :key="cat.name"
+              :to="`/shop?category=${encodeURIComponent(cat.name)}`"
+              class="mobile-link"
+              @click="mobileOpen = false"
+            >{{ cat.name }}</NuxtLink>
           </div>
 
           <div class="px-6 py-4 mt-auto border-t border-[#E8D5A3]">
@@ -230,29 +184,16 @@ onMounted(() => {
 
 const promoVisible = ref(true)
 const mobileOpen = ref(false)
-const mobileSub = ref(null)
 const activeMenu = ref(null)
 const searchOpen = ref(false)
 const searchQuery = ref('')
 const searchInput = ref(null)
 
 const navCategories = [
-  {
-    name: 'Earrings',
-    subs: ['Studs', 'Jhumkas', 'Hoops', 'Chandbalis', 'Drop & Danglers', 'Ear Cuffs'],
-  },
-  {
-    name: 'Necklaces',
-    subs: ['Pendants & Chains', 'Chokers', 'Layered', 'Long Necklaces'],
-  },
-  {
-    name: 'Rings',
-    subs: ['Stackable', 'Solitaire', 'Statement', 'Bands'],
-  },
-  {
-    name: 'Bracelets',
-    subs: ['Chain', 'Cuffs & Bangles', 'Charm', 'Tennis', 'Beaded'],
-  },
+  { name: 'Earrings' },
+  { name: 'Necklaces' },
+  { name: 'Rings' },
+  { name: 'Bracelets' },
 ]
 
 const budgets = [
@@ -261,10 +202,6 @@ const budgets = [
   { label: 'Under ₹2,000', val: '2000' },
   { label: 'Above ₹2,000', val: 'above' },
 ]
-
-const toggleMobileSub = (name) => {
-  mobileSub.value = mobileSub.value === name ? null : name
-}
 
 const doSearch = () => {
   if (searchQuery.value.trim()) {

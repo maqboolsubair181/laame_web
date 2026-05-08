@@ -53,7 +53,7 @@ const { data: allProducts, pending } = await useAsyncData('shop-products', () =>
   queryContent('products').find()
 )
 
-const allCategories = ['All', 'Earrings', 'Necklaces', 'Rings', 'Bracelets', 'Bangles & Anklets', 'Bridal Sets']
+const allCategories = ['All', 'Earrings', 'Necklaces', 'Rings', 'Bracelets']
 
 // Reactive filters
 const activeCategory = ref(route.query.category?.toString() || 'All')
