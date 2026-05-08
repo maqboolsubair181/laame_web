@@ -32,7 +32,7 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: 'en' },
       title: 'Laame Jewels — Handcrafted Gold & Diamond Jewellery',
       meta: [
-        { name: 'description', content: 'Discover handcrafted gold, diamond & gemstone jewellery at Laame Jewels. Earrings, necklaces, rings, bangles & bridal sets — BIS Hallmarked, delivered to your door.' },
+        { name: 'description', content: 'Discover handcrafted gold, diamond & gemstone jewellery at Laame Jewels. Earrings, necklaces, rings, bangles & statement pieces — BIS Hallmarked, delivered to your door.' },
         { name: 'theme-color', content: '#FAF8F5' },
       ],
       link: [

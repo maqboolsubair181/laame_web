@@ -13,7 +13,7 @@
           <ul class="list-disc pl-5 space-y-2 text-[#7A7A7A]">
             <li><strong>In-Stock Items:</strong> Dispatched within 2-3 business days. Delivery takes 3-5 business days depending on your location.</li>
             <li><strong>Made-to-Order Items:</strong> Requires 14-21 business days for crafting before dispatch.</li>
-            <li><strong>Bridal Sets:</strong> Requires 4-6 weeks for meticulous craftsmanship and detailing.</li>
+            <li><strong>Custom Pieces:</strong> Requires 4-6 weeks for meticulous craftsmanship and detailing.</li>
           </ul>
         </section>
 

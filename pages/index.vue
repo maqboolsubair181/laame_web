@@ -28,7 +28,7 @@
 <script setup>
 useSeoMeta({
   title: 'Laame Jewels — Handcrafted Gold & Diamond Jewellery',
-  description: 'Discover handcrafted gold, diamond & gemstone jewellery at Laame Jewels. Earrings, necklaces, rings, bangles & bridal sets — BIS Hallmarked, delivered to your door.',
+  description: 'Discover handcrafted gold, diamond & gemstone jewellery at Laame Jewels. Earrings, necklaces, rings, bangles & statement pieces — BIS Hallmarked, delivered to your door.',
   ogTitle: 'Laame Jewels — Handcrafted Gold & Diamond Jewellery',
   ogDescription: 'Discover handcrafted gold, diamond & gemstone jewellery at Laame Jewels.',
   ogType: 'website',

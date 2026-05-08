@@ -19,7 +19,7 @@
 const messages = [
   'Free shipping on orders above ₹1000 · Use code FIRST10 for 10% off',
   'BIS Hallmarked Gold · Certified Diamonds · Authentic Craftsmanship',
-  'New Bridal Collection Now Available — Explore Now',
+  'New Collection Now Available — Explore Now',
 ]
 
 const currentIndex = ref(0)

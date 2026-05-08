@@ -43,7 +43,7 @@ const testimonials = [
     location: 'Chennai',
   },
   {
-    quote: "The craftsmanship is extraordinary. My mother gifted me the Bridal Choker Set and every stone is placed with such intention. Worth every rupee.",
+    quote: "The craftsmanship is extraordinary. My mother gifted me the Golden Airtick Pendant and every stone is placed with such intention. Worth every rupee.",
     name: 'Ananya P.',
     location: 'Mumbai',
   },
