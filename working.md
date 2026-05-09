@@ -27,18 +27,26 @@
 ### Data Layer
 | File | Status |
 |---|---|
-| `content/products/temple-gold-jhumka.json` | ✅ |
-| `content/products/diamond-chandbali.json` | ✅ |
-| `content/products/22kt-gold-lotus-ring.json` | ✅ |
-| `content/products/layered-gold-mangalsutra.json` | ✅ |
-| `content/products/gold-tennis-bracelet.json` | ✅ |
-| `content/products/kada-bangle-set.json` | ✅ |
-| `content/products/pearl-drop-earrings.json` | ✅ |
-| `content/products/diamond-solitaire-pendant.json` | ✅ |
-| `content/products/stackable-gold-band.json` | ✅ |
-| `content/products/bridal-choker-set.json` | ✅ |
-| `content/products/gold-ear-cuff.json` | ✅ |
-| `content/products/gold-anklet-payal.json` | ✅ |
+| `content/products/18k-gold-plated-rose-flower.json` | ✅ |
+| `content/products/dainty-double-layered-heart.json` | ✅ |
+| `content/products/elegant-crystal-stone-dangler.json` | ✅ |
+| `content/products/floral-crystal-bracelet.json` | ✅ |
+| `content/products/gold-plated-minimal-rectangle-crystal.json` | ✅ |
+| `content/products/golden-airtick-pendant.json` | ✅ |
+| `content/products/vintage-gold-cuff-bracelet.json` | ✅ |
+| `content/products/diamond-tennis-bracelet.json` | ✅ |
+| `content/products/emerald-beaded-bracelet.json` | ✅ |
+| `content/products/sapphire-drop-pendant.json` | ✅ |
+| `content/products/pearl-choker-necklace.json` | ✅ |
+| `content/products/ruby-solitaire-chain.json` | ✅ |
+| `content/products/traditional-temple-necklace.json` | ✅ |
+| `content/products/rose-gold-layered-chain.json` | ✅ |
+| `content/products/kundan-bridal-set.json` | ✅ |
+| `content/products/geometric-gold-pendant.json` | ✅ |
+| `content/products/vintage-locket-necklace.json` | ✅ |
+| `content/products/crystal-halo-pendant.json` | ✅ |
+| `content/products/emerald-choker-set.json` | ✅ |
+| `content/products/floral-diamond-necklace.json` | ✅ |
 
 ### State & Composables
 | File | Status | Notes |

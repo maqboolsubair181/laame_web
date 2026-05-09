@@ -1,0 +1,25 @@
+{
+  "id": "neck-014",
+  "slug": "floral-diamond-necklace",
+  "name": "Floral Diamond Necklace",
+  "price": 6500,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Pendants & Chains",
+  "material": "Silver Plated",
+  "purity": "Standard",
+  "weight": "14g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": [
+    "floral",
+    "diamond",
+    "necklace"
+  ],
+  "images": [
+    "/images/products/necklace14.png"
+  ],
+  "description": "An exquisite floral diamond necklace that adds a touch of glamour to your evening attire.",
+  "collection": "evening"
+}

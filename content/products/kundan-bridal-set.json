@@ -1,0 +1,25 @@
+{
+  "id": "neck-009",
+  "slug": "kundan-bridal-set",
+  "name": "Kundan Bridal Set",
+  "price": 12500,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Chokers",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "35g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": [
+    "kundan",
+    "bridal",
+    "set"
+  ],
+  "images": [
+    "/images/products/necklace9.png"
+  ],
+  "description": "A regal Kundan bridal set that promises to make you shine on your special day.",
+  "collection": "bridal"
+}

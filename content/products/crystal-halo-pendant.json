@@ -1,0 +1,25 @@
+{
+  "id": "neck-012",
+  "slug": "crystal-halo-pendant",
+  "name": "Crystal Halo Pendant",
+  "price": 3100,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Pendants & Chains",
+  "material": "Silver Plated",
+  "purity": "Standard",
+  "weight": "7g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": [
+    "crystal",
+    "halo",
+    "pendant"
+  ],
+  "images": [
+    "/images/products/necklace12.png"
+  ],
+  "description": "A dazzling crystal halo pendant that catches the light beautifully from every angle.",
+  "collection": "evening"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "neck-006",
+  "slug": "ruby-solitaire-chain",
+  "name": "Ruby Solitaire Chain",
+  "price": 2900,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Pendants & Chains",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "5g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": [
+    "ruby",
+    "solitaire",
+    "chain"
+  ],
+  "images": [
+    "/images/products/necklace6.png"
+  ],
+  "description": "A delicate gold-plated chain featuring a striking ruby solitaire pendant.",
+  "collection": "minimalist"
+}

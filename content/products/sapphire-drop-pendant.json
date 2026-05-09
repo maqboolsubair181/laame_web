@@ -1,0 +1,25 @@
+{
+  "id": "neck-004",
+  "slug": "sapphire-drop-pendant",
+  "name": "Sapphire Drop Pendant",
+  "price": 3200,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Pendants & Chains",
+  "material": "Silver Plated",
+  "purity": "Standard",
+  "weight": "6g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": [
+    "sapphire",
+    "drop",
+    "pendant"
+  ],
+  "images": [
+    "/images/products/necklace4.png"
+  ],
+  "description": "A stunning sapphire drop pendant on a delicate silver chain, perfect for an elegant look.",
+  "collection": "elegant"
+}

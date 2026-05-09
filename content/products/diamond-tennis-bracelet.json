@@ -1,0 +1,25 @@
+{
+  "id": "brac-003",
+  "slug": "diamond-tennis-bracelet",
+  "name": "Diamond Tennis Bracelet",
+  "price": 8500,
+  "salePrice": null,
+  "category": "Bracelets",
+  "subcategory": "Tennis",
+  "material": "Silver Plated",
+  "purity": "Standard",
+  "weight": "10g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": [
+    "diamond",
+    "tennis",
+    "bracelet"
+  ],
+  "images": [
+    "/images/products/bracelet3.png"
+  ],
+  "description": "A classic tennis bracelet studded with sparkling crystals, perfect for evening wear and special occasions.",
+  "collection": "evening"
+}

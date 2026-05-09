@@ -1,0 +1,25 @@
+{
+  "id": "brac-004",
+  "slug": "emerald-beaded-bracelet",
+  "name": "Emerald Beaded Bracelet",
+  "price": 2800,
+  "salePrice": null,
+  "category": "Bracelets",
+  "subcategory": "Beaded",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "8g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": [
+    "emerald",
+    "beaded",
+    "bracelet"
+  ],
+  "images": [
+    "/images/products/bracelet4.png"
+  ],
+  "description": "A beautifully crafted beaded bracelet featuring vibrant green emerald-like stones.",
+  "collection": "casual"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "neck-008",
+  "slug": "rose-gold-layered-chain",
+  "name": "Rose Gold Layered Chain",
+  "price": 3800,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Layered",
+  "material": "Rose Gold Plated",
+  "purity": "Standard",
+  "weight": "10g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": [
+    "rosegold",
+    "layered",
+    "chain"
+  ],
+  "images": [
+    "/images/products/necklace8.png"
+  ],
+  "description": "A modern rose gold layered chain that adds a trendy touch to your casual or formal wear.",
+  "collection": "modern"
+}

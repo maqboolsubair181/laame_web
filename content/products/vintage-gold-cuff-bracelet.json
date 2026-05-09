@@ -1,0 +1,25 @@
+{
+  "id": "brac-002",
+  "slug": "vintage-gold-cuff-bracelet",
+  "name": "Vintage Gold Cuff",
+  "price": 4500,
+  "salePrice": null,
+  "category": "Bracelets",
+  "subcategory": "Cuffs & Bangles",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "12g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": [
+    "vintage",
+    "cuff",
+    "bracelet"
+  ],
+  "images": [
+    "/images/products/bracelet2.png"
+  ],
+  "description": "An elegant vintage gold cuff bracelet that adds a touch of classic sophistication to your ensemble.",
+  "collection": "vintage"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "neck-005",
+  "slug": "pearl-choker-necklace",
+  "name": "Pearl Choker Necklace",
+  "price": 4100,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Chokers",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "15g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": [
+    "pearl",
+    "choker",
+    "necklace"
+  ],
+  "images": [
+    "/images/products/necklace5.png"
+  ],
+  "description": "A sophisticated pearl choker necklace that brings a timeless elegance to any outfit.",
+  "collection": "classic"
+}

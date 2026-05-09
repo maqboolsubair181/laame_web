@@ -1,0 +1,25 @@
+{
+  "id": "neck-007",
+  "slug": "traditional-temple-necklace",
+  "name": "Traditional Temple Necklace",
+  "price": 9500,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Long Necklaces",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "25g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": [
+    "traditional",
+    "temple",
+    "necklace"
+  ],
+  "images": [
+    "/images/products/necklace7.png"
+  ],
+  "description": "An intricately designed traditional temple necklace, perfect for weddings and festive occasions.",
+  "collection": "bridal"
+}

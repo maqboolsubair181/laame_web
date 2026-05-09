@@ -1,0 +1,25 @@
+{
+  "id": "neck-013",
+  "slug": "emerald-choker-set",
+  "name": "Emerald Choker Set",
+  "price": 8200,
+  "salePrice": null,
+  "category": "Necklaces",
+  "subcategory": "Chokers",
+  "material": "Gold Plated",
+  "purity": "Standard",
+  "weight": "22g",
+  "inStock": true,
+  "isFeatured": true,
+  "isNew": true,
+  "tags": [
+    "emerald",
+    "choker",
+    "set"
+  ],
+  "images": [
+    "/images/products/necklace13.png"
+  ],
+  "description": "A breathtaking emerald choker set that exudes luxury and timeless beauty.",
+  "collection": "bridal"
+}
