@@ -59,11 +59,11 @@ const badges = [
   },
   {
     label: 'Stainless Steel',
-    icon: '<svg width="18" height="14" viewBox="0 0 18 14" fill="none"><rect x="1" y="1" width="10" height="9" rx="1" stroke="#B8942E" stroke-width="1.2"/><path d="M11 4h3l3 3v3h-6V4z" stroke="#B8942E" stroke-width="1.2"/><circle cx="4.5" cy="12" r="1.5" stroke="#B8942E" stroke-width="1.2"/><circle cx="13.5" cy="12" r="1.5" stroke="#B8942E" stroke-width="1.2"/></svg>',
+    icon: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1.5L13.5 4V8.5C13.5 11.5 11 13.8 8 14.5C5 13.8 2.5 11.5 2.5 8.5V4L8 1.5Z" stroke="#B8942E" stroke-width="1.2" stroke-linejoin="round"/><path d="M5.5 8L7 9.5L10.5 6.5" stroke="#B8942E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   },
   {
     label: '18K Gold Plated',
-    icon: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8a5 5 0 109 3" stroke="#B8942E" stroke-width="1.2" stroke-linecap="round"/><path d="M3 5v3h3" stroke="#B8942E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    icon: '<svg width="17" height="16" viewBox="0 0 17 16" fill="none"><ellipse cx="8.5" cy="9" rx="5.5" ry="2.5" stroke="#B8942E" stroke-width="1.2"/><ellipse cx="8.5" cy="7" rx="5.5" ry="2.5" stroke="#B8942E" stroke-width="1.2"/><path d="M8.5 3L9.3 4.7L11.2 5L9.85 6.3L10.15 8.2L8.5 7.35L6.85 8.2L7.15 6.3L5.8 5L7.7 4.7L8.5 3Z" fill="#B8942E"/></svg>',
   },
 ]
 </script>
