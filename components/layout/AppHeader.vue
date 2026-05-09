@@ -25,13 +25,13 @@
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-2.5 shrink-0">
           <NuxtImg
-            src="/images/logo.png"
-            alt="Laame Jewels"
+            src="/images/jewel.png"
+            alt="LaaMe Jewels"
             width="36"
             height="36"
             class="w-8 h-8 md:w-9 md:h-9 object-contain"
           />
-          <span class="font-serif text-xl md:text-2xl text-[#1C1C1C] tracking-wide">Laame Jewels</span>
+          <span class="font-serif text-xl md:text-2xl text-[#1C1C1C] tracking-wide">LaaMe Jewels</span>
         </NuxtLink>
 
         <!-- Desktop Nav -->

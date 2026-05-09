@@ -58,14 +58,22 @@
           <div class="border-t border-[#E8D5A3] pt-4">
             <p class="text-xs text-[#7A7A7A] uppercase tracking-[0.1em] mb-3">Order Summary</p>
             <div class="space-y-1 text-sm text-[#1C1C1C] max-h-28 overflow-y-auto">
-              <div v-for="item in cart.items" :key="item.id" class="flex justify-between">
-                <span class="truncate mr-4">{{ item.name }} × {{ item.qty }}</span>
-                <span class="shrink-0">₹{{ ((item.salePrice || item.price) * item.qty).toLocaleString('en-IN') }}</span>
-              </div>
+              <template v-if="product">
+                <div class="flex justify-between">
+                  <span class="truncate mr-4">{{ product.name }} × {{ qty }}</span>
+                  <span class="shrink-0">₹{{ ((product.salePrice || product.price) * qty).toLocaleString('en-IN') }}</span>
+                </div>
+              </template>
+              <template v-else>
+                <div v-for="item in cart.items" :key="item.id" class="flex justify-between">
+                  <span class="truncate mr-4">{{ item.name }} × {{ item.qty }}</span>
+                  <span class="shrink-0">₹{{ ((item.salePrice || item.price) * item.qty).toLocaleString('en-IN') }}</span>
+                </div>
+              </template>
             </div>
             <div class="flex justify-between mt-3 pt-3 border-t border-[#E8D5A3] font-medium">
               <span>Total</span>
-              <span class="font-serif text-lg">₹{{ cart.total.toLocaleString('en-IN') }}</span>
+              <span class="font-serif text-lg">₹{{ (product ? ((product.salePrice || product.price) * qty) : cart.total).toLocaleString('en-IN') }}</span>
             </div>
           </div>
 
@@ -86,6 +94,7 @@ import { useWhatsAppOrder } from '~/composables/useWhatsAppOrder'
 const props = defineProps({
   modelValue: Boolean,
   product: { type: Object, default: null },
+  qty: { type: Number, default: 1 }
 })
 
 const emit = defineEmits(['update:modelValue'])
@@ -97,11 +106,11 @@ const form = reactive({ name: '', phone: '', address: '' })
 
 const send = () => {
   const items = props.product
-    ? [{ ...props.product, qty: 1 }]
+    ? [{ ...props.product, qty: props.qty }]
     : cart.items
 
   const total = props.product
-    ? (props.product.salePrice || props.product.price)
+    ? ((props.product.salePrice || props.product.price) * props.qty)
     : cart.total
 
   openWhatsApp(items, total, form)

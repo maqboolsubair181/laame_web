@@ -3,7 +3,7 @@
     <div class="max-w-[1400px] mx-auto px-4 md:px-8 w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8 py-20 md:py-0">
       <!-- Text -->
       <div class="order-2 md:order-1">
-        <span class="label">New Collection 2025</span>
+        <span class="label">New Collection 2026</span>
         <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl text-[#1C1C1C] leading-[1.1] mb-6">
           Jewellery that<br />
           <em class="not-italic text-[#B8942E]">carries meaning</em>

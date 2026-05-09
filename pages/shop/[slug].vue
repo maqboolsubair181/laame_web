@@ -133,7 +133,7 @@
     </template>
 
     <!-- WhatsApp Modal for this product -->
-    <WhatsAppModal v-model="showWhatsApp" :product="product" />
+    <WhatsAppModal v-model="showWhatsApp" :product="product" :qty="qty" />
   </div>
 </template>
 
@@ -150,7 +150,7 @@ const { data: product, pending } = await useAsyncData(
 
 // SEO — called at top-level (valid here in page setup)
 useSeoMeta({
-  title: computed(() => product.value ? `${product.value.name} — Laame Jewels` : 'Laame Jewels'),
+  title: computed(() => product.value ? `${product.value.name} — LaaMe Jewels` : 'LaaMe Jewels'),
   description: computed(() => product.value?.description || ''),
   ogTitle: computed(() => product.value?.name || ''),
   ogDescription: computed(() => product.value?.description || ''),
@@ -187,6 +187,6 @@ const addToCart = () => {
 const accordion = computed(() => product.value ? [
   { label: 'Care Instructions', content: product.value.careInstructions },
   { label: 'Shipping & Delivery', content: product.value.shipping },
-  { label: 'Returns & Exchanges', content: product.value.returns },
+  { label: 'Returns Policy', content: 'We do not accept returns or exchanges. All sales are final to ensure hygiene and product quality.' },
 ] : [])
 </script>

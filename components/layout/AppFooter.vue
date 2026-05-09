@@ -7,13 +7,13 @@
         <div class="md:col-span-1">
           <NuxtLink to="/" class="flex items-center gap-2.5 mb-4">
             <NuxtImg
-              src="/images/logo.png"
-              alt="Laame Jewels"
+              src="/images/jewel.png"
+              alt="LaaMe Jewels"
               width="36"
               height="36"
               class="w-8 h-8 object-contain brightness-200"
             />
-            <span class="font-serif text-2xl text-white tracking-wide">Laame Jewels</span>
+            <span class="font-serif text-2xl text-white tracking-wide">LaaMe Jewels</span>
           </NuxtLink>
           <p class="text-sm text-white/50 leading-relaxed max-w-[200px]">
             Handcrafted jewellery for every chapter of your story. Anti-Tarnish. Always authentic.
@@ -94,7 +94,7 @@
 
       <!-- Bottom -->
       <div class="flex flex-col md:flex-row items-center justify-between pt-8 gap-4 text-[11px] text-white/30 tracking-[0.1em] uppercase">
-        <p>© {{ new Date().getFullYear() }} Laame Jewels. All rights reserved.</p>
+        <p>© {{ new Date().getFullYear() }} LaaMe Jewels. All rights reserved.</p>
         <div class="flex items-center gap-4">
           <NuxtLink to="/privacy" class="hover:text-white/60 transition-colors">Privacy</NuxtLink>
           <NuxtLink to="/terms" class="hover:text-white/60 transition-colors">Terms</NuxtLink>
@@ -121,7 +121,7 @@ const collectionLinks = [
 const helpLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Shipping & Delivery', href: '/shipping' },
-  { label: 'Returns & Exchanges', href: '/returns' },
+  { label: 'Returns Policy', href: '/returns' },
   { label: 'Size Guide', href: '/size-guide' },
   { label: 'Care Instructions', href: '/care' },
 ]

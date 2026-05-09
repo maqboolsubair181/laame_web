@@ -26,10 +26,10 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Laame Jewels — Handcrafted Gold & Diamond Jewellery',
-  description: 'Discover handcrafted 18K gold plated jewellery at Laame Jewels. Earrings, necklaces, rings, bangles & statement pieces — Anti-Tarnish, delivered to your door.',
-  ogTitle: 'Laame Jewels — Handcrafted Gold & Diamond Jewellery',
-  ogDescription: 'Discover handcrafted 18K gold plated jewellery at Laame Jewels.',
+  title: 'LaaMe Jewels — Handcrafted Gold & Diamond Jewellery',
+  description: 'Discover handcrafted 18K gold plated jewellery at LaaMe Jewels. Earrings, necklaces, rings, bangles & statement pieces — Anti-Tarnish, delivered to your door.',
+  ogTitle: 'LaaMe Jewels — Handcrafted Gold & Diamond Jewellery',
+  ogDescription: 'Discover handcrafted 18K gold plated jewellery at LaaMe Jewels.',
   ogType: 'website',
 })
 
@@ -40,7 +40,7 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'JewelryStore',
-        name: 'Laame Jewels',
+        name: 'LaaMe Jewels',
         description: '18K gold plated and crystal jewellery. Anti-Tarnish.',
         url: 'https://laamejewels.com',
         telephone: '+91-98765-43210',
