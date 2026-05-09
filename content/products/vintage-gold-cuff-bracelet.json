@@ -6,8 +6,8 @@
   "salePrice": null,
   "category": "Bracelets",
   "subcategory": "Cuffs & Bangles",
-  "material": "Gold Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "12g",
   "inStock": true,
   "isFeatured": false,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/bracelet2.png"
   ],
-  "description": "An elegant vintage gold cuff bracelet that adds a touch of classic sophistication to your ensemble.",
+  "description": "An elegant vintage gold cuff bracelet that adds a touch of classic sophistication to your ensemble. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "vintage"
 }

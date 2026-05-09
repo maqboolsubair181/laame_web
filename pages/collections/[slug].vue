@@ -26,6 +26,6 @@ const { data: products, pending } = await useAsyncData(
 
 useSeoMeta({
   title: `${collectionTitle.value} Collection — Laame Jewels`,
-  description: `Explore the ${collectionTitle.value} collection at Laame Jewels. Handcrafted gold and diamond jewellery.`,
+  description: `Explore the ${collectionTitle.value} collection at Laame Jewels. Handcrafted 18K gold plated jewellery.`,
 })
 </script>

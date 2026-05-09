@@ -6,8 +6,8 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Pendants & Chains",
-  "material": "Silver Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "6g",
   "inStock": true,
   "isFeatured": false,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace4.png"
   ],
-  "description": "A stunning sapphire drop pendant on a delicate silver chain, perfect for an elegant look.",
+  "description": "A stunning sapphire drop pendant on a delicate silver chain, perfect for an elegant look. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "elegant"
 }

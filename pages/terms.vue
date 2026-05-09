@@ -22,7 +22,7 @@
           <h2 class="font-serif text-2xl mb-4 text-[#B8942E]">Pricing & Payment</h2>
           <ul class="list-disc pl-5 space-y-2 text-[#7A7A7A]">
             <li>All prices are listed in Indian Rupees (INR) and are inclusive of applicable taxes.</li>
-            <li>Prices of gold and diamonds fluctuate based on market rates. The price confirmed at the time of placing your order on WhatsApp is final.</li>
+            <li>Prices are subject to change based on material availability. The price confirmed at the time of placing your order on WhatsApp is final.</li>
             <li>We require full payment before dispatching any order. For made-to-order items, an advance payment may be required.</li>
           </ul>
         </section>

@@ -17,8 +17,7 @@
 
 <script setup>
 const messages = [
-  'Free shipping on orders above ₹1000 · Use code FIRST10 for 10% off',
-  'BIS Hallmarked Gold · Certified Diamonds · Authentic Craftsmanship',
+  'Free shipping on orders above ₹1000',
   'New Collection Now Available — Explore Now',
 ]
 

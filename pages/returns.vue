@@ -13,7 +13,7 @@
           <ul class="list-disc pl-5 space-y-2 text-[#7A7A7A]">
             <li>Returns must be initiated within <strong>7 days</strong> of delivery.</li>
             <li>The jewellery must be unworn, in its original condition, with the security tag intact.</li>
-            <li>Original packaging, BIS certificate, and invoice must be included.</li>
+            <li>Original packaging, quality assurance card, and invoice must be included.</li>
           </ul>
           <p class="mt-4 text-[#7A7A7A]"><em>Note: Custom-made, engraved, or personalized items cannot be returned or exchanged.</em></p>
         </section>
@@ -22,7 +22,7 @@
 
         <section>
           <h2 class="font-serif text-2xl mb-4 text-[#B8942E]">Lifetime Exchange Policy</h2>
-          <p class="text-[#7A7A7A]">We offer a lifetime exchange on all our 22kt gold jewellery. You can exchange your Laame Jewels pieces for new ones at the current market rate of gold, deducting making charges and taxes. Diamonds will be valued at 90% of their prevailing market value.</p>
+          <p class="text-[#7A7A7A]">We offer easy returns on unworn items within 7 days. Your 18K gold plated jewellery is designed to be anti-tarnish and durable.</p>
         </section>
 
         <div class="gold-divider" />

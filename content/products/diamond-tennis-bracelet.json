@@ -1,13 +1,13 @@
 {
   "id": "brac-003",
   "slug": "diamond-tennis-bracelet",
-  "name": "Diamond Tennis Bracelet",
+  "name": "Crystal Tennis Bracelet",
   "price": 8500,
   "salePrice": null,
   "category": "Bracelets",
   "subcategory": "Tennis",
-  "material": "Silver Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "10g",
   "inStock": true,
   "isFeatured": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/bracelet3.png"
   ],
-  "description": "A classic tennis bracelet studded with sparkling crystals, perfect for evening wear and special occasions.",
+  "description": "A classic tennis bracelet studded with sparkling crystals, perfect for evening wear and special occasions. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "evening"
 }

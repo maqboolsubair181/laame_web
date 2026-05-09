@@ -31,7 +31,7 @@
             Laame Jewels was born from a simple belief: that every woman deserves jewellery that tells her story. We work directly with master karigars across Rajasthan, Tamil Nadu, and Bengal — craftspeople who have inherited techniques passed down through generations.
           </p>
           <p class="text-[#7A7A7A] text-sm leading-relaxed">
-            Every piece we create carries the fingerprints of its maker. The subtle asymmetry of a hand-pressed petal. The warmth of 22kt gold that only comes from wood-fired crucibles. This is not factory jewellery. This is legacy.
+            Every piece we create carries the fingerprints of its maker. The subtle asymmetry of a hand-pressed petal. The brilliance of our 18K gold plating. This is not factory jewellery. This is legacy.
           </p>
         </div>
         <div class="aspect-[4/5] overflow-hidden bg-[#F0ECE4]">
@@ -68,13 +68,13 @@
 <script setup>
 useSeoMeta({
   title: 'About Us — Laame Jewels',
-  description: 'Learn about Laame Jewels — our commitment to handcrafted, BIS Hallmarked jewellery made by master karigars across India.',
+  description: 'Learn about Laame Jewels — our commitment to handcrafted, Anti-Tarnish jewellery made by master karigars across India.',
 })
 
 const values = [
   {
     title: 'Authenticity',
-    desc: 'Every piece is BIS Hallmarked. What you see is exactly what you get — in weight, purity, and craftsmanship.',
+    desc: 'Every piece is Anti-Tarnish. What you see is exactly what you get — in durability and craftsmanship.',
     icon: '<svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2L12.5 7.5H18L13.5 11L15.5 17L10 13.5L4.5 17L6.5 11L2 7.5H7.5L10 2Z" stroke="#B8942E" stroke-width="1.2"/></svg>',
   },
   {

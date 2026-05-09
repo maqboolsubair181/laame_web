@@ -1,13 +1,13 @@
 {
   "id": "neck-014",
   "slug": "floral-diamond-necklace",
-  "name": "Floral Diamond Necklace",
+  "name": "Floral Crystal Necklace",
   "price": 6500,
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Pendants & Chains",
-  "material": "Silver Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "14g",
   "inStock": true,
   "isFeatured": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace14.png"
   ],
-  "description": "An exquisite floral diamond necklace that adds a touch of glamour to your evening attire.",
+  "description": "An exquisite floral crystal necklace that adds a touch of glamour to your evening attire. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "evening"
 }

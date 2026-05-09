@@ -9,7 +9,7 @@
           <em class="not-italic text-[#B8942E]">carries meaning</em>
         </h1>
         <p class="text-[#7A7A7A] text-base md:text-lg leading-relaxed max-w-[400px] mb-10">
-          Handcrafted in 22kt gold and certified diamonds. From intimate studs to statement pieces — each piece is made to be worn, remembered, and passed down.
+          Crafted in 18K gold plated stainless steel and premium crystals. From intimate studs to statement pieces — each piece is made to be worn, remembered, and passed down.
         </p>
         <div class="flex flex-wrap gap-4">
           <NuxtLink to="/shop" class="btn-primary">Shop Now</NuxtLink>
@@ -54,7 +54,7 @@
 <script setup>
 const badges = [
   {
-    label: 'BIS Hallmarked',
+    label: 'Anti-Tarnish',
     icon: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1L10 5.5H15L11 8.5L12.5 13L8 10L3.5 13L5 8.5L1 5.5H6L8 1Z" fill="#B8942E"/></svg>',
   },
   {

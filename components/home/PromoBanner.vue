@@ -18,7 +18,7 @@
         <em class="not-italic text-[#B8942E]">has arrived</em>
       </h2>
       <p class="text-white/60 text-base md:text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-        Heirloom-quality pieces crafted for your most significant moments. 22kt gold, kundan, and certified diamonds — curated by master karigars.
+        Heirloom-quality pieces crafted for your most significant moments. 18K gold plated stainless steel and premium crystals — curated by master karigars.
       </p>
       <NuxtLink to="/shop?filter=new" class="btn-primary bg-[#B8942E] hover:bg-[#FAF8F5] hover:text-[#1C1C1C]">
         Explore New Arrivals

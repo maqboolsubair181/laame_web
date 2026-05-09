@@ -6,8 +6,8 @@
   "salePrice": null,
   "category": "Bracelets",
   "subcategory": "Beaded",
-  "material": "Gold Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "8g",
   "inStock": true,
   "isFeatured": false,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/bracelet4.png"
   ],
-  "description": "A beautifully crafted beaded bracelet featuring vibrant green emerald-like stones.",
+  "description": "A beautifully crafted beaded bracelet featuring vibrant green emerald-like stones. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "casual"
 }

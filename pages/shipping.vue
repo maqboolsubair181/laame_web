@@ -28,7 +28,7 @@
 
         <section>
           <h2 class="font-serif text-2xl mb-4 text-[#B8942E]">Packaging</h2>
-          <p class="text-[#7A7A7A]">Your Laame Jewels piece will arrive in our signature premium packaging, perfect for gifting or safely storing your heirloom. Every order includes the original BIS Hallmark certificate and a detailed invoice.</p>
+          <p class="text-[#7A7A7A]">Your Laame Jewels piece will arrive in our signature premium packaging, perfect for gifting or safely storing your heirloom. Every order includes the quality assurance card and a detailed invoice.</p>
         </section>
       </div>
     </div>

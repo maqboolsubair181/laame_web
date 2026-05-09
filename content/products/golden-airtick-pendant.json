@@ -6,16 +6,19 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Pendants & Chains",
-  "material": "Gold Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "5.2g",
   "inStock": true,
   "isFeatured": true,
   "isNew": true,
-  "tags": ["pendant", "gold"],
+  "tags": [
+    "pendant",
+    "gold"
+  ],
   "images": [
     "/images/products/necklace3.jpeg"
   ],
-  "description": "A unique golden airtick pendant necklace that adds a subtle charm to any outfit. A must-have for your jewelry collection.",
+  "description": "A unique golden airtick pendant necklace that adds a subtle charm to any outfit. A must-have for your jewelry collection. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "minimalist"
 }

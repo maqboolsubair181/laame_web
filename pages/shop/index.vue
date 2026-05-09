@@ -45,7 +45,7 @@ const route = useRoute()
 
 useSeoMeta({
   title: 'Shop All Jewellery — Laame Jewels',
-  description: 'Browse our complete collection of handcrafted gold, diamond and gemstone jewellery. Filter by category, price and more.',
+  description: 'Browse our complete collection of 18K gold plated and crystal jewellery. Filter by category, price and more.',
 })
 
 // Fetch all products

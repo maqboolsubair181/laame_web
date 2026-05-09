@@ -6,8 +6,8 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Layered",
-  "material": "Rose Gold Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "10g",
   "inStock": true,
   "isFeatured": false,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace8.png"
   ],
-  "description": "A modern rose gold layered chain that adds a trendy touch to your casual or formal wear.",
+  "description": "A modern rose gold layered chain that adds a trendy touch to your casual or formal wear. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "modern"
 }

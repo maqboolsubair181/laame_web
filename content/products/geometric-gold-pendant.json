@@ -6,8 +6,8 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Pendants & Chains",
-  "material": "Gold Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "5.5g",
   "inStock": true,
   "isFeatured": false,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace10.png"
   ],
-  "description": "A contemporary geometric gold pendant that perfectly blends modern design with classic elegance.",
+  "description": "A contemporary geometric gold pendant that perfectly blends modern design with classic elegance. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "modern"
 }

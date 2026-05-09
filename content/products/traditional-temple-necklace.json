@@ -6,8 +6,8 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Long Necklaces",
-  "material": "Gold Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "25g",
   "inStock": true,
   "isFeatured": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace7.png"
   ],
-  "description": "An intricately designed traditional temple necklace, perfect for weddings and festive occasions.",
+  "description": "An intricately designed traditional temple necklace, perfect for weddings and festive occasions. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "bridal"
 }

@@ -6,16 +6,20 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Layered",
-  "material": "Gold Plated",
-  "purity": "Standard",
+  "material": "18K Gold Plated Stainless Steel",
+  "purity": "Anti-Tarnish",
   "weight": "6.5g",
   "inStock": true,
   "isFeatured": true,
   "isNew": true,
-  "tags": ["heart", "layered", "dainty"],
+  "tags": [
+    "heart",
+    "layered",
+    "dainty"
+  ],
   "images": [
     "/images/products/necklace2.png"
   ],
-  "description": "Show your love with this dainty double layered heart necklace. Elegant, romantic, and versatile.",
+  "description": "Show your love with this dainty double layered heart necklace. Elegant, romantic, and versatile. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "romantic"
 }

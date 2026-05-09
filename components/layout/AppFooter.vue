@@ -16,7 +16,7 @@
             <span class="font-serif text-2xl text-white tracking-wide">Laame Jewels</span>
           </NuxtLink>
           <p class="text-sm text-white/50 leading-relaxed max-w-[200px]">
-            Handcrafted jewellery for every chapter of your story. BIS Hallmarked. Always authentic.
+            Handcrafted jewellery for every chapter of your story. Anti-Tarnish. Always authentic.
           </p>
           <div class="flex items-center gap-4 mt-6">
             <a

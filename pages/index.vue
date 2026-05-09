@@ -27,9 +27,9 @@
 <script setup>
 useSeoMeta({
   title: 'Laame Jewels — Handcrafted Gold & Diamond Jewellery',
-  description: 'Discover handcrafted gold, diamond & gemstone jewellery at Laame Jewels. Earrings, necklaces, rings, bangles & statement pieces — BIS Hallmarked, delivered to your door.',
+  description: 'Discover handcrafted 18K gold plated jewellery at Laame Jewels. Earrings, necklaces, rings, bangles & statement pieces — Anti-Tarnish, delivered to your door.',
   ogTitle: 'Laame Jewels — Handcrafted Gold & Diamond Jewellery',
-  ogDescription: 'Discover handcrafted gold, diamond & gemstone jewellery at Laame Jewels.',
+  ogDescription: 'Discover handcrafted 18K gold plated jewellery at Laame Jewels.',
   ogType: 'website',
 })
 
@@ -41,7 +41,7 @@ useHead({
         '@context': 'https://schema.org',
         '@type': 'JewelryStore',
         name: 'Laame Jewels',
-        description: 'Handcrafted gold, diamond and gemstone jewellery. BIS Hallmarked.',
+        description: '18K gold plated and crystal jewellery. Anti-Tarnish.',
         url: 'https://laamejewels.com',
         telephone: '+91-98765-43210',
         address: {
