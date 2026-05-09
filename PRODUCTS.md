@@ -1,29 +1,41 @@
-# Laame Jewels Products
+# Laame Jewels - Product Catalog
 
-## Bracelets
-- Floral Crystal (bracelet1.png) - `floral-crystal-bracelet.json`
-- Vintage Gold Cuff (bracelet2.png) - `vintage-gold-cuff-bracelet.json`
-- Diamond Tennis Bracelet (bracelet3.png) - `diamond-tennis-bracelet.json`
-- Emerald Beaded Bracelet (bracelet4.png) - `emerald-beaded-bracelet.json`
+> **Note:** This document provides a high-level overview of the current product inventory. For detailed edits, please modify the respective JSON files located in `content/products/`.
 
-## Earrings
-- Elegant Crystal Stone Dangler (earrings1.jpg) - `elegant-crystal-stone-dangler.json`
+## Inventory Summary
 
-## Necklaces
-- Gold-Plated Minimal Rectangle Crystal (necklace1.jpeg) - `gold-plated-minimal-rectangle-crystal.json`
-- Dainty Double Layered Heart (necklace2.png) - `dainty-double-layered-heart.json`
-- Golden Airtick Pendant (necklace3.jpeg) - `golden-airtick-pendant.json`
-- Sapphire Drop Pendant (necklace4.png) - `sapphire-drop-pendant.json`
-- Pearl Choker Necklace (necklace5.png) - `pearl-choker-necklace.json`
-- Ruby Solitaire Chain (necklace6.png) - `ruby-solitaire-chain.json`
-- Traditional Temple Necklace (necklace7.png) - `traditional-temple-necklace.json`
-- Rose Gold Layered Chain (necklace8.png) - `rose-gold-layered-chain.json`
-- Kundan Bridal Set (necklace9.png) - `kundan-bridal-set.json`
-- Geometric Gold Pendant (necklace10.png) - `geometric-gold-pendant.json`
-- Vintage Locket Necklace (necklace11.png) - `vintage-locket-necklace.json`
-- Crystal Halo Pendant (necklace12.png) - `crystal-halo-pendant.json`
-- Emerald Choker Set (necklace13.png) - `emerald-choker-set.json`
-- Floral Diamond Necklace (necklace14.png) - `floral-diamond-necklace.json`
+| Category | Item Count |
+|----------|------------|
+| **Rings** | 1 |
+| **Necklaces** | 14 |
+| **Bracelets** | 4 |
+| **Earrings** | 1 |
 
-## Rings
-- 18K Gold-Plated Rose Flower (rings1.jpg) - `18k-gold-plated-rose-flower.json`
+
+## All Products
+
+| ID | Product Name | Category | Subcategory | Price | Primary Image |
+|----|--------------|----------|-------------|-------|---------------|
+| `brac-003` | **Diamond Tennis Bracelet** | Bracelets | Tennis | ₹8500 | `bracelet3.png` |
+| `brac-004` | **Emerald Beaded Bracelet** | Bracelets | Beaded | ₹2800 | `bracelet4.png` |
+| `brac-001` | **Floral Crystal** | Bracelets | Chain | ₹3200 | `bracelet1.png` |
+| `brac-002` | **Vintage Gold Cuff** | Bracelets | Cuffs & Bangles | ₹4500 | `bracelet2.png` |
+| `ear-001` | **Elegant Crystal Stone Dangler** | Earrings | Drop & Danglers | ₹2500 | `earrings1.jpg` |
+| `neck-012` | **Crystal Halo Pendant** | Necklaces | Pendants & Chains | ₹3100 | `necklace12.png` |
+| `neck-002` | **Dainty Double Layered Heart** | Necklaces | Layered | ₹2200 | `necklace2.png` |
+| `neck-013` | **Emerald Choker Set** | Necklaces | Chokers | ₹8200 | `necklace13.png` |
+| `neck-014` | **Floral Diamond Necklace** | Necklaces | Pendants & Chains | ₹6500 | `necklace14.png` |
+| `neck-010` | **Geometric Gold Pendant** | Necklaces | Pendants & Chains | ₹2100 | `necklace10.png` |
+| `neck-001` | **Gold-Plated Minimal Rectangle Crystal** | Necklaces | Pendants & Chains | ₹1500 | `necklace1.jpeg` |
+| `neck-003` | **Golden Airtick Pendant** | Necklaces | Pendants & Chains | ₹1900 | `necklace3.jpeg` |
+| `neck-009` | **Kundan Bridal Set** | Necklaces | Chokers | ₹12500 | `necklace9.png` |
+| `neck-005` | **Pearl Choker Necklace** | Necklaces | Chokers | ₹4100 | `necklace5.png` |
+| `neck-008` | **Rose Gold Layered Chain** | Necklaces | Layered | ₹3800 | `necklace8.png` |
+| `neck-006` | **Ruby Solitaire Chain** | Necklaces | Pendants & Chains | ₹2900 | `necklace6.png` |
+| `neck-004` | **Sapphire Drop Pendant** | Necklaces | Pendants & Chains | ₹3200 | `necklace4.png` |
+| `neck-007` | **Traditional Temple Necklace** | Necklaces | Long Necklaces | ₹9500 | `necklace7.png` |
+| `neck-011` | **Vintage Locket Necklace** | Necklaces | Pendants & Chains | ₹2700 | `necklace11.png` |
+| `ring-001` | **18K Gold-Plated Rose Flower** | Rings | Statement | ₹1800 | `rings1.jpg` |
+
+---
+*Auto-generated from `content/products/` JSON files.*

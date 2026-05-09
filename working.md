@@ -25,8 +25,9 @@
 | `assets/css/main.css` | ✅ | All design tokens, component classes, scrollbar |
 
 ### Data Layer
-| File | Status |
-|---|---|
+| File | Status | Notes |
+|---|---|---|
+| `PRODUCTS.md` | ✅ | Auto-generated professional catalog overview of all JSON products |
 | `content/products/18k-gold-plated-rose-flower.json` | ✅ |
 | `content/products/dainty-double-layered-heart.json` | ✅ |
 | `content/products/elegant-crystal-stone-dangler.json` | ✅ |
