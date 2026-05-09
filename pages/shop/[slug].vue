@@ -66,7 +66,6 @@
             <div class="flex flex-wrap gap-2 mb-6">
               <span class="tag">{{ product.material }}</span>
               <span class="tag">{{ product.purity }}</span>
-              <span class="tag">{{ product.weight }}</span>
               <span v-if="product.inStock" class="tag border-green-600 text-green-700">In Stock</span>
               <span v-else class="tag border-red-400 text-red-500">Out of Stock</span>
             </div>
@@ -185,8 +184,8 @@ const addToCart = () => {
 }
 
 const accordion = computed(() => product.value ? [
-  { label: 'Care Instructions', content: product.value.careInstructions },
-  { label: 'Shipping & Delivery', content: product.value.shipping },
-  { label: 'Returns Policy', content: 'We do not accept returns or exchanges. All sales are final to ensure hygiene and product quality.' },
+  { label: 'Care Instructions', content: product.value.careInstructions || 'Avoid contact with water, perfume and chemicals. Store in a cool, dry place. Wipe gently with a soft cloth after each use.' },
+  { label: 'Shipping & Delivery', content: product.value.shipping || 'Free shipping on orders above ₹1000. Delivered in 5–7 business days.' },
+  { label: 'Returns Policy', content: 'All sales are final. We do not accept returns or exchanges to maintain hygiene and product quality. If you receive a damaged item, please contact us on WhatsApp within 24 hours.' },
 ] : [])
 </script>

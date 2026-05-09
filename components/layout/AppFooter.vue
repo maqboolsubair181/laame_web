@@ -11,9 +11,9 @@
               alt="LaaMe Jewels"
               width="36"
               height="36"
-              class="w-8 h-8 object-contain brightness-200"
+              class="w-8 h-8 md:w-9 md:h-9 object-contain"
             />
-            <span class="font-serif text-2xl text-white tracking-wide">LaaMe Jewels</span>
+            <span class="font-serif text-xl md:text-2xl text-white tracking-wide">LaaMe Jewels</span>
           </NuxtLink>
           <p class="text-sm text-white/50 leading-relaxed max-w-[200px]">
             Handcrafted jewellery for every chapter of your story. Anti-Tarnish. Always authentic.
@@ -122,7 +122,6 @@ const helpLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Shipping & Delivery', href: '/shipping' },
   { label: 'Returns Policy', href: '/returns' },
-  { label: 'Size Guide', href: '/size-guide' },
   { label: 'Care Instructions', href: '/care' },
 ]
 </script>

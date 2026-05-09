@@ -58,11 +58,11 @@ const badges = [
     icon: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1L10 5.5H15L11 8.5L12.5 13L8 10L3.5 13L5 8.5L1 5.5H6L8 1Z" fill="#B8942E"/></svg>',
   },
   {
-    label: 'Free Shipping',
+    label: 'Stainless Steel',
     icon: '<svg width="18" height="14" viewBox="0 0 18 14" fill="none"><rect x="1" y="1" width="10" height="9" rx="1" stroke="#B8942E" stroke-width="1.2"/><path d="M11 4h3l3 3v3h-6V4z" stroke="#B8942E" stroke-width="1.2"/><circle cx="4.5" cy="12" r="1.5" stroke="#B8942E" stroke-width="1.2"/><circle cx="13.5" cy="12" r="1.5" stroke="#B8942E" stroke-width="1.2"/></svg>',
   },
   {
-    label: 'Easy Returns',
+    label: '18K Gold Plated',
     icon: '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8a5 5 0 109 3" stroke="#B8942E" stroke-width="1.2" stroke-linecap="round"/><path d="M3 5v3h3" stroke="#B8942E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
   },
 ]
