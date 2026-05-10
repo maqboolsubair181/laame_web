@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#B8942E] py-2.5 px-4 text-center relative fixed top-0 left-0 right-0 z-[60]">
+  <div class="bg-[#B8942E] py-2.5 px-4 text-center fixed top-0 left-0 right-0 z-[60]">
     <p class="text-[11px] tracking-[0.15em] uppercase text-white font-medium">
       {{ messages[currentIndex] }}
     </p>

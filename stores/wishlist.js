@@ -33,5 +33,4 @@ export const useWishlistStore = defineStore('wishlist', {
     },
   },
 
-  persist: true,
 })
