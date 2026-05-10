@@ -2,7 +2,7 @@
   <div>
     <PromoBar />
     <AppHeader />
-    <main>
+    <main class="pt-[101px] md:pt-[117px]">
       <NuxtPage />
     </main>
     <AppFooter />

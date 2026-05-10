@@ -1,11 +1,9 @@
 <template>
   <header
     :class="[
-      'fixed top-0 left-0 right-0 z-50 transition-all duration-500',
+      'fixed top-[37px] left-0 right-0 z-50 transition-all duration-500',
       scrolled ? 'bg-[#FAF8F5]/95 backdrop-blur-md shadow-sm' : 'bg-[#FAF8F5]',
-      promoVisible ? 'top-[37px]' : 'top-0',
     ]"
-    style="height: max-content;"
   >
     <div class="max-w-[1400px] mx-auto px-4 md:px-8">
       <div class="flex items-center justify-between h-16 md:h-20">
@@ -182,7 +180,7 @@ onMounted(() => {
   onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 })
 
-const promoVisible = ref(true)
+
 const mobileOpen = ref(false)
 const activeMenu = ref(null)
 const searchOpen = ref(false)

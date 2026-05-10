@@ -1,52 +1,16 @@
+// Thin wrapper — delegates to the Pinia wishlist store for persistence.
+// Components that call useWishlist() continue to work unchanged.
+import { useWishlistStore } from '~/stores/wishlist'
+
 export const useWishlist = () => {
-  const wishlist = useState('wishlist', () => [])
-
-  const isWishlisted = (id) => wishlist.value.includes(id)
-
-  const toggleWishlist = (id) => {
-    const idx = wishlist.value.indexOf(id)
-    if (idx === -1) {
-      wishlist.value.push(id)
-    } else {
-      wishlist.value.splice(idx, 1)
-    }
-    if (import.meta.client) {
-      localStorage.setItem('lj_wishlist', JSON.stringify(wishlist.value))
-    }
-  }
-
-  const addToWishlist = (id) => {
-    if (!isWishlisted(id)) {
-      wishlist.value.push(id)
-      if (import.meta.client) {
-        localStorage.setItem('lj_wishlist', JSON.stringify(wishlist.value))
-      }
-    }
-  }
-
-  const removeFromWishlist = (id) => {
-    wishlist.value = wishlist.value.filter((i) => i !== id)
-    if (import.meta.client) {
-      localStorage.setItem('lj_wishlist', JSON.stringify(wishlist.value))
-    }
-  }
-
-  const wishlistCount = computed(() => wishlist.value.length)
-
-  // Restore from localStorage on client
-  if (import.meta.client && wishlist.value.length === 0) {
-    try {
-      const saved = localStorage.getItem('lj_wishlist')
-      if (saved) wishlist.value = JSON.parse(saved)
-    } catch {}
-  }
+  const store = useWishlistStore()
 
   return {
-    wishlist,
-    isWishlisted,
-    toggleWishlist,
-    addToWishlist,
-    removeFromWishlist,
-    wishlistCount,
+    wishlist: computed(() => store.ids),
+    wishlistCount: computed(() => store.count),
+    isWishlisted: (id) => store.isWishlisted(id),
+    toggleWishlist: (id) => store.toggle(id),
+    addToWishlist: (id) => store.add(id),
+    removeFromWishlist: (id) => store.remove(id),
   }
 }
