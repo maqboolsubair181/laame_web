@@ -25,22 +25,45 @@
         </div>
       </div>
 
-      <!-- Hero Image -->
+      <!-- Hero Carousel -->
       <div class="order-1 md:order-2 relative">
         <div class="aspect-[4/5] md:aspect-[3/4] overflow-hidden bg-[#F0ECE4] relative">
-          <NuxtImg
-            src="/images/cover1.png"
-            alt="Laame Jewels — Handcrafted Gold Jewellery"
-            class="w-full h-full object-cover object-center"
-            width="700"
-            height="875"
-            priority
-          />
+          <!-- Slides -->
+          <TransitionGroup name="hero-fade" tag="div" class="relative w-full h-full">
+            <NuxtImg
+              v-for="(slide, i) in slides"
+              v-show="currentSlide === i"
+              :key="slide.src"
+              :src="slide.src"
+              :alt="slide.alt"
+              class="absolute inset-0 w-full h-full object-cover object-center"
+              width="700"
+              height="875"
+              :loading="i === 0 ? 'eager' : 'lazy'"
+            />
+          </TransitionGroup>
+
           <!-- Floating tag -->
-          <div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-3 border-l-2 border-[#B8942E]">
+          <div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-3 border-l-2 border-[#B8942E] z-10">
             <p class="text-[10px] tracking-[0.15em] uppercase text-[#7A7A7A] mb-0.5">Bestseller</p>
             <p class="font-serif text-base text-[#1C1C1C]">Golden Airtick Pendant</p>
             <p class="text-xs text-[#B8942E] mt-0.5">₹1,900</p>
+          </div>
+
+          <!-- Slide dots -->
+          <div class="absolute bottom-6 right-6 flex gap-2 z-10">
+            <button
+              v-for="(_, i) in slides"
+              :key="i"
+              @click="goToSlide(i)"
+              :aria-label="`Slide ${i + 1}`"
+              :class="[
+                'transition-all duration-300',
+                currentSlide === i
+                  ? 'w-6 h-1.5 bg-[#B8942E]'
+                  : 'w-1.5 h-1.5 bg-white/60 rounded-full',
+              ]"
+            />
           </div>
         </div>
 
@@ -52,6 +75,32 @@
 </template>
 
 <script setup>
+const slides = [
+  { src: '/images/cover1.png', alt: 'Laame Jewels — Handcrafted Gold Jewellery' },
+  { src: '/images/cover4.webp', alt: 'Laame Jewels — New Collection' },
+  { src: '/images/cover5.webp', alt: 'Laame Jewels — Premium Crystals' },
+]
+
+const currentSlide = ref(0)
+let timer = null
+
+const goToSlide = (i) => {
+  currentSlide.value = i
+  restartTimer()
+}
+
+const nextSlide = () => {
+  currentSlide.value = (currentSlide.value + 1) % slides.length
+}
+
+const restartTimer = () => {
+  clearInterval(timer)
+  timer = setInterval(nextSlide, 4000)
+}
+
+onMounted(() => restartTimer())
+onUnmounted(() => clearInterval(timer))
+
 const badges = [
   {
     label: 'Anti-Tarnish',
@@ -67,3 +116,20 @@ const badges = [
   },
 ]
 </script>
+
+<style scoped>
+.hero-fade-enter-active,
+.hero-fade-leave-active {
+  transition: opacity 0.8s ease;
+  position: absolute;
+  inset: 0;
+}
+.hero-fade-enter-from,
+.hero-fade-leave-to {
+  opacity: 0;
+}
+.hero-fade-enter-to,
+.hero-fade-leave-from {
+  opacity: 1;
+}
+</style>

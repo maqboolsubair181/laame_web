@@ -1,8 +1,8 @@
 <template>
   <header
     :class="[
-      'fixed top-[37px] left-0 right-0 z-50 transition-all duration-500',
-      scrolled ? 'bg-[#FAF8F5]/95 backdrop-blur-md shadow-sm' : 'bg-[#FAF8F5]',
+      'fixed left-0 right-0 z-50 transition-all duration-500',
+      scrolledPastPromo ? 'top-0 bg-[#FAF8F5]/95 backdrop-blur-md shadow-sm' : 'top-[37px] bg-[#FAF8F5]',
     ]"
   >
     <div class="max-w-[1400px] mx-auto px-4 md:px-8">
@@ -173,12 +173,16 @@ import { useCartStore } from '~/stores/cart'
 const cart = useCartStore()
 const scrollY = ref(0)
 const scrolled = computed(() => scrollY.value > 60)
+const scrolledPastPromo = computed(() => scrollY.value > 37)
 
 onMounted(() => {
   const handleScroll = () => { scrollY.value = window.scrollY }
   window.addEventListener('scroll', handleScroll, { passive: true })
   onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 })
+
+// Share scroll state so PromoBar can collapse itself
+provide('scrolledPastPromo', scrolledPastPromo)
 
 
 const mobileOpen = ref(false)

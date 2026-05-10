@@ -2,7 +2,7 @@
   <div>
     <PromoBar />
     <AppHeader />
-    <main class="pt-[101px] md:pt-[117px]">
+    <main :style="mainPadding">
       <NuxtPage />
     </main>
     <AppFooter />
@@ -36,6 +36,27 @@
 import { useCartStore } from '~/stores/cart'
 
 const cart = useCartStore()
+
+// Track scroll to sync padding with PromoBar collapse + header shift
+const scrollY = ref(0)
+const scrolledPastPromo = computed(() => scrollY.value > 37)
+
+onMounted(() => {
+  const handleScroll = () => { scrollY.value = window.scrollY }
+  window.addEventListener('scroll', handleScroll, { passive: true })
+  onUnmounted(() => window.removeEventListener('scroll', handleScroll))
+})
+
+// Responsive padding: mobile 64px / desktop 80px when promo hidden,
+// mobile 101px / desktop 117px when promo visible.
+// CSS transition makes it smooth alongside the PromoBar collapse.
+const isMd = useMediaQuery('(min-width: 768px)')
+const mainPadding = computed(() => ({
+  paddingTop: scrolledPastPromo.value
+    ? (isMd.value ? '80px' : '64px')
+    : (isMd.value ? '117px' : '101px'),
+  transition: 'padding-top 0.5s ease',
+}))
 </script>
 
 <style>
