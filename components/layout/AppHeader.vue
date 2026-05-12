@@ -171,18 +171,9 @@
 import { useCartStore } from '~/stores/cart'
 
 const cart = useCartStore()
-const scrollY = ref(0)
-const scrolled = computed(() => scrollY.value > 60)
-const scrolledPastPromo = computed(() => scrollY.value > 37)
 
-onMounted(() => {
-  const handleScroll = () => { scrollY.value = window.scrollY }
-  window.addEventListener('scroll', handleScroll, { passive: true })
-  onUnmounted(() => window.removeEventListener('scroll', handleScroll))
-})
-
-// Share scroll state so PromoBar can collapse itself
-provide('scrolledPastPromo', scrolledPastPromo)
+// Use the single scroll state provided by app.vue (threshold > 40px)
+const scrolledPastPromo = inject('scrolledPastPromo', ref(false))
 
 
 const mobileOpen = ref(false)

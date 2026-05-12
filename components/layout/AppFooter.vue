@@ -20,7 +20,7 @@
           </p>
           <div class="flex items-center gap-4 mt-6">
             <a
-              href="https://wa.me/919744421599"
+              href="https://wa.me/919744880434"
               target="_blank"
               rel="noopener"
               aria-label="WhatsApp"
@@ -72,14 +72,14 @@
           <ul class="space-y-3 text-sm text-white/50">
             <li>Mon–Sat, 10am–7pm IST</li>
             <li>
-              <a href="tel:+919744421599" class="hover:text-[#B8942E] transition-colors">+91 97444 21599</a>
+              <a href="tel:+919744880434" class="hover:text-[#B8942E] transition-colors">+91 97448 80434</a>
             </li>
             <li>
-              <a href="mailto:hello@laamejewels.com" class="hover:text-[#B8942E] transition-colors">hello@laamejewels.com</a>
+              <a href="mailto:laamejewels@gmail.com" class="hover:text-[#B8942E] transition-colors">laamejewels@gmail.com</a>
             </li>
             <li class="pt-2">
               <a
-                href="https://wa.me/919744421599"
+                href="https://wa.me/919744880434"
                 target="_blank"
                 rel="noopener"
                 class="btn-whatsapp text-xs py-3 rounded-none justify-start gap-2 px-4 w-auto inline-flex"

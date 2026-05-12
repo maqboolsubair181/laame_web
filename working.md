@@ -1,6 +1,6 @@
 # Laame Jewels — Working Document
 
-> Last updated: 2026-05-10
+> Last updated: 2026-05-12
 > This file is meant for handoff to another agent or session. It documents everything built, what works, and what remains.
 
 ---
@@ -71,7 +71,7 @@
 |---|---|---|
 | `stores/cart.js` | ✅ | Pinia store, persist:true |
 | `stores/wishlist.js` | ✅ | Pinia store, persist:true — created 2026-05-10 (migrated from composable) |
-| `composables/useWhatsAppOrder.js` | ✅ | Phone from runtimeConfig; fallback `919744421599` |
+| `composables/useWhatsAppOrder.js` | ✅ | Phone from runtimeConfig; fallback `919744880434` |
 | `composables/useWishlist.js` | ✅ | Thin wrapper around `useWishlistStore` — backward compatible with all components |
 
 ---
@@ -79,9 +79,9 @@
 ### Layout Components
 | File | Status | Notes |
 |---|---|---|
-| `components/layout/PromoBar.vue` | ✅ | Fixed positioned (`fixed top-0 z-[60]`), 2 messages only |
-| `components/layout/AppHeader.vue` | ✅ | Fixed at `top-[37px]` (below fixed PromoBar), blur on scroll, 4 category links, mobile hamburger |
-| `components/layout/AppFooter.vue` | ✅ | Logo matches header (same `jewel.png`, no brightness filter), Size Guide removed, no Bridal Sets link |
+| `components/layout/PromoBar.vue` | ✅ | Fixed `top-0 z-[60]`; slides away with `translateY(-100%)` on scroll (≥40px); PromoBar collapses first, header fills gap |
+| `components/layout/AppHeader.vue` | ✅ | Injects `scrolledPastPromo` from `app.vue` (no own scroll listener); transitions from `top-[37px]` → `top-0` when promo collapses |
+| `components/layout/AppFooter.vue` | ✅ | Phone: +91 97448 80434, Email: laamejewels@gmail.com |
 
 ---
 
@@ -116,7 +116,7 @@
 ### Home Components
 | File | Status | Notes |
 |---|---|---|
-| `components/home/HeroBanner.vue` | ✅ | "New Collection 2026"; badges: Anti-Tarnish (star), Stainless Steel (shield+check), 18K Gold Plated (ring+star); bestseller = "Golden Airtick Pendant" |
+| `components/home/HeroBanner.vue` | ✅ | "New Collection 2026"; 3 slides: `cover1.png`, `cover4.jpg` (updated), `cover5.webp`; crossfade 1.2s with zoom in/out; 5s interval |
 | `components/home/CategoryGrid.vue` | ✅ | 4 categories only: Earrings, Necklaces, Rings, Bracelets |
 | `components/home/FeaturedProducts.vue` | ✅ | |
 | `components/home/PromoBanner.vue` | ✅ | "The New Edit" (bridal removed); uses `cover2.jpg` |
@@ -146,9 +146,11 @@
 ### Public Images
 | Path | Used By |
 |---|---|
-| `public/images/cover1.png` | `HeroBanner.vue` (hero image) |
+| `public/images/cover1.png` | `HeroBanner.vue` slide 1 |
 | `public/images/cover2.jpg` | `PromoBanner.vue` |
 | `public/images/cover3.webp` | `pages/about.vue` |
+| `public/images/cover4.jpg` | `HeroBanner.vue` slide 2 (updated 2026-05-12 from LAAME WEB PIC) |
+| `public/images/cover5.webp` | `HeroBanner.vue` slide 3 |
 | `public/images/jewel.png` | AppHeader + AppFooter logos |
 | `public/images/products/earrings1.jpg` | Elegant Crystal Stone Dangler |
 | `public/images/products/rings1.jpg` | 18K Gold-Plated Rose Flower |
@@ -197,12 +199,13 @@ Colours:
 - **`components.pathPrefix: false`**: Set in nuxt.config so `PromoBar`, `AppHeader`, etc. resolve without folder prefix.
 - **No `group` in `@apply`**: Tailwind v3 disallows `@apply group`. The `group` class is added directly in templates; hover scale uses plain CSS `.product-card:hover .card-img`.
 - **Fuzzy Search**: Implemented `fuse.js` in `pages/shop/index.vue` for premium fuzzy text matching across product fields.
-- **WhatsApp phone**: Stored in `runtimeConfig.public.whatsappPhone` (`919744421599`). Change in `nuxt.config.ts` only.
+- **WhatsApp phone**: Stored in `runtimeConfig.public.whatsappPhone` (`919744880434`). Change in `nuxt.config.ts` only.
+- **Contact email**: `laamejewels@gmail.com` (updated 2026-05-12).
 - **Mobile menu fix**: `AppHeader.vue` mobile overlay moved outside `<header>` tag to prevent clipping from `backdrop-filter` containing block.
 - **WhatsApp total bug fixed**: `WhatsAppModal.vue` now accepts a `:qty` prop. Total is calculated as `price × qty`, fixing the bug where total showed ₹0.
 - **No returns policy**: `returns.vue` and product accordion both state explicitly that no returns or exchanges are accepted.
 - **Product material accuracy**: All JSON files and Vue copy updated — material = `18K Gold Plated Stainless Steel`, purity = `Anti-Tarnish`. No references to real gold/diamonds.
-- **Header gap fix (2026-05-10)**: PromoBar is now `position: fixed; top: 0; z-[60]`. AppHeader is `position: fixed; top: [37px]; z-50`. `<main>` has `pt-[101px] md:pt-[117px]` to clear both. Previously the header used a dynamic `top-[37px]/top-0` toggle that left a blank gap on scroll.
+- **Scroll behavior fix (2026-05-12)**: Single scroll source in `app.vue` (threshold > 40px). PromoBar uses `translateY(-100%)` for smooth upward slide. AppHeader injects `scrolledPastPromo` from `app.vue` (no own scroll listener). Previously AppHeader had a conflicting duplicate listener causing it to appear to collapse instead of the PromoBar.
 - **Wishlist persistence fix (2026-05-10)**: Wishlist migrated from `useState` + manual `localStorage` to a proper Pinia store (`stores/wishlist.js`) with `persist: true`. `useWishlist.js` is now a thin backward-compatible wrapper. Cart was already using Pinia correctly.
 
 ---

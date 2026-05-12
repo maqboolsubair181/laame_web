@@ -37,9 +37,13 @@ import { useCartStore } from '~/stores/cart'
 
 const cart = useCartStore()
 
-// Track scroll to sync padding with PromoBar collapse + header shift
+// Single scroll listener for the whole app — provided to children via inject.
+// app.vue is the parent of both PromoBar and AppHeader, so provide() works here.
 const scrollY = ref(0)
-const scrolledPastPromo = computed(() => scrollY.value > 37)
+const scrolledPastPromo = computed(() => scrollY.value > 40)
+
+// Provide to ALL descendant components (PromoBar & AppHeader use this)
+provide('scrolledPastPromo', scrolledPastPromo)
 
 onMounted(() => {
   const handleScroll = () => { scrollY.value = window.scrollY }
@@ -47,15 +51,15 @@ onMounted(() => {
   onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 })
 
-// Responsive padding: mobile 64px / desktop 80px when promo hidden,
-// mobile 101px / desktop 117px when promo visible.
-// CSS transition makes it smooth alongside the PromoBar collapse.
+// main padding-top:
+// Promo visible  → promo(37) + header mobile(64) = 101px  / desktop(80) = 117px
+// Promo hidden   → header only mobile(64)               / desktop(80)
 const isMd = useMediaQuery('(min-width: 768px)')
 const mainPadding = computed(() => ({
   paddingTop: scrolledPastPromo.value
     ? (isMd.value ? '80px' : '64px')
     : (isMd.value ? '117px' : '101px'),
-  transition: 'padding-top 0.5s ease',
+  transition: 'padding-top 0.5s cubic-bezier(0.4, 0, 0.2, 1)',
 }))
 </script>
 

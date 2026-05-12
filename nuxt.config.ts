@@ -55,7 +55,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      whatsappPhone: '919744421599',
+      whatsappPhone: '919744880434',
     },
   },
 })

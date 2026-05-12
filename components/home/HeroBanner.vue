@@ -77,7 +77,7 @@
 <script setup>
 const slides = [
   { src: '/images/cover1.png', alt: 'Laame Jewels — Handcrafted Gold Jewellery' },
-  { src: '/images/cover4.webp', alt: 'Laame Jewels — New Collection' },
+  { src: '/images/cover4.jpg', alt: 'Laame Jewels — New Collection' },
   { src: '/images/cover5.webp', alt: 'Laame Jewels — Premium Crystals' },
 ]
 
@@ -120,16 +120,22 @@ const badges = [
 <style scoped>
 .hero-fade-enter-active,
 .hero-fade-leave-active {
-  transition: opacity 0.8s ease;
+  transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1), transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   inset: 0;
+  will-change: opacity, transform;
 }
-.hero-fade-enter-from,
+.hero-fade-enter-from {
+  opacity: 0;
+  transform: scale(1.03);
+}
 .hero-fade-leave-to {
   opacity: 0;
+  transform: scale(0.98);
 }
 .hero-fade-enter-to,
 .hero-fade-leave-from {
   opacity: 1;
+  transform: scale(1);
 }
 </style>

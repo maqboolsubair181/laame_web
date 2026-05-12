@@ -1,8 +1,8 @@
 <template>
   <div
     :class="[
-      'fixed top-0 left-0 right-0 z-[60] overflow-hidden transition-all duration-500 ease-in-out',
-      scrolledPastPromo ? 'max-h-0 opacity-0' : 'max-h-[60px] opacity-100',
+      'fixed top-0 left-0 right-0 z-[60] transition-transform duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]',
+      scrolledPastPromo ? '-translate-y-full' : 'translate-y-0',
     ]"
   >
     <div class="bg-[#B8942E] py-2.5 px-4 text-center">
