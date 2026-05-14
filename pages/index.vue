@@ -14,6 +14,14 @@
     <PromoBanner />
 
     <FeaturedProducts
+      label="Exclusive Offers"
+      title="Combo Sets"
+      collection="combos"
+      :limit="4"
+      view-all-link="/shop?category=Combos"
+    />
+
+    <FeaturedProducts
       label="What's New"
       title="Fresh Arrivals"
       :is-new="true"

@@ -9,7 +9,7 @@
 
       <!-- Wishlist -->
       <button
-        class="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        class="absolute top-3 right-3 z-10 w-8 h-8 flex items-center justify-center bg-white/80 backdrop-blur-sm opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300"
         @click.stop="wishlist.toggleWishlist(product.id)"
         :aria-label="wishlist.isWishlisted(product.id) ? 'Remove from wishlist' : 'Add to wishlist'"
       >

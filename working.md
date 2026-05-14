@@ -64,6 +64,8 @@
 | `content/products/crystal-halo-pendant.json` | ✅ | Necklaces |
 | `content/products/emerald-choker-set.json` | ✅ | Necklaces |
 | `content/products/floral-diamond-necklace.json` | ✅ | Necklaces (Crystal, not diamond) |
+| `content/products/combo-001.json` | ✅ | Combos (Golden Bow Combo) |
+| `content/products/combo-002.json` | ✅ | Combos (Heart Link Combo) |
 
 ---
 
@@ -81,7 +83,7 @@
 | File | Status | Notes |
 |---|---|---|
 | `components/layout/PromoBar.vue` | ✅ | Fixed `top-0 z-[60]`; slides away with `translateY(-100%)` on scroll (≥40px); PromoBar collapses first, header fills gap |
-| `components/layout/AppHeader.vue` | ✅ | Injects `scrolledPastPromo` from `app.vue` (no own scroll listener); transitions from `top-[37px]` → `top-0` when promo collapses |
+| `components/layout/AppHeader.vue` | ✅ | Injects `scrolledPastPromo` from `app.vue`; Wishlist icon visibility on mobile fixed |
 | `components/layout/AppFooter.vue` | ✅ | Phone: +91 97448 80434, Email: laamejewels@gmail.com |
 
 ---
@@ -89,7 +91,7 @@
 ### Product Components
 | File | Status | Notes |
 |---|---|---|
-| `components/product/ProductCard.vue` | ✅ | |
+| `components/product/ProductCard.vue` | ✅ | Wishlist heart icon always visible on mobile; fades in on desktop hover |
 | `components/product/ProductGrid.vue` | ✅ | |
 | `components/product/ProductGallery.vue` | ✅ | |
 
@@ -119,7 +121,7 @@
 |---|---|---|
 | `components/home/HeroBanner.vue` | ✅ | "New Collection 2026"; 3 slides: `cover1.png`, `cover4.jpg` (updated), `cover5.webp`; crossfade 1.2s with zoom in/out; 5s interval |
 | `components/home/CategoryGrid.vue` | ✅ | 4 categories only: Earrings, Necklaces, Rings, Bracelets |
-| `components/home/FeaturedProducts.vue` | ✅ | |
+| `components/home/FeaturedProducts.vue` | ✅ | Includes new 'Combos' collection section on homepage |
 | `components/home/PromoBanner.vue` | ✅ | "The New Edit" (bridal removed); uses `cover2.jpg` |
 | `components/home/Testimonials.vue` | ❌ DELETED | Removed at user request — not on homepage |
 
@@ -129,7 +131,7 @@
 | File | Status | Notes |
 |---|---|---|
 | `app.vue` | ✅ | PromoBar (fixed) + Header (fixed at top-[37px]) + CartDrawer + Footer + Mobile cart bar; `<main>` has `pt-[101px] md:pt-[117px]` |
-| `pages/index.vue` | ✅ | Full homepage with SEO + JSON-LD; Testimonials removed |
+| `pages/index.vue` | ✅ | Full homepage with SEO + JSON-LD; Added Exclusive Offers (Combos) section |
 | `pages/shop/index.vue` | ✅ | 4 filter pills (All/Earrings/Necklaces/Rings/Bracelets), fuzzy search via fuse.js, IntersectionObserver infinite scroll |
 | `pages/shop/[slug].vue` | ✅ | Weight tag removed; no Size Guide accordion; no-returns accordion; WhatsApp modal receives `:qty` |
 | `pages/collections/[slug].vue` | ✅ | Dynamic collection page |

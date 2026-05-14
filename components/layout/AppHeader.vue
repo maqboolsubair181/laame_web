@@ -86,7 +86,7 @@
             </svg>
           </button>
 
-          <NuxtLink to="/wishlist" class="btn-icon hidden md:flex" aria-label="Wishlist">
+          <NuxtLink to="/wishlist" class="btn-icon flex" aria-label="Wishlist">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
               <path d="M9 15.5S1.5 10.5 1.5 5.5a4 4 0 017.5-2 4 4 0 017.5 2c0 5-7.5 10-7.5 10z" stroke="#1C1C1C" stroke-width="1.4"/>
             </svg>

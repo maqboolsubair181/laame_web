@@ -10,6 +10,7 @@
 | **Necklaces** | 14 |
 | **Bracelets** | 4 |
 | **Earrings** | 1 |
+| **Combos** | 2 |
 
 ## All Products
 
@@ -35,6 +36,8 @@
 | `neck-007` | **Mila Heart Necklace** | Necklaces | ₹199 | `necklace7.png` | 304 |
 | `neck-011` | **Rectangle Crystal Bar Necklace** | Necklaces | ₹165 | `necklace11.png` | 304 |
 | `ring-001` | **Gold-Plated Rose Flower** | Rings | ₹99 | `rings1.jpg` | 316 |
+| `combo-001` | **Golden Bow Combo** | Combos | ₹269 | `necklace8.png` | 316 |
+| `combo-002` | **Heart Link Combo** | Combos | ₹389 | `necklace6.png` | 316 |
 
 ---
 *Auto-generated from `content/products/` JSON files.*

@@ -1,0 +1,26 @@
+{
+  "id": "combo-002",
+  "slug": "heart-link-combo",
+  "name": "Heart Link Combo",
+  "price": 419,
+  "salePrice": 389,
+  "category": "Combos",
+  "material": "18K Gold Plated 316 Stainless Steel",
+  "purity": "Anti-Tarnish",
+  "weight": "15g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": [
+    "combo",
+    "heart link",
+    "bracelet",
+    "necklace"
+  ],
+  "images": [
+    "/images/products/necklace6.png",
+    "/images/products/bracelet3.png"
+  ],
+  "description": "A beautiful pairing of our Heart Link Necklace and Bracelet. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "collection": "combos"
+}

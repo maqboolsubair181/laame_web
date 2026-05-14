@@ -1,0 +1,26 @@
+{
+  "id": "combo-001",
+  "slug": "golden-bow-combo",
+  "name": "Golden Bow Combo",
+  "price": 299,
+  "salePrice": 269,
+  "category": "Combos",
+  "material": "18K Gold Plated 316 Stainless Steel",
+  "purity": "Anti-Tarnish",
+  "weight": "18g",
+  "inStock": true,
+  "isFeatured": false,
+  "isNew": true,
+  "tags": [
+    "combo",
+    "golden bow",
+    "bracelet",
+    "necklace"
+  ],
+  "images": [
+    "/images/products/necklace8.png",
+    "/images/products/bracelet4.png"
+  ],
+  "description": "A perfect pair of our Golden Bow Necklace and Bracelet. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "collection": "combos"
+}
