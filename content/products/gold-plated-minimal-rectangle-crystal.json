@@ -6,7 +6,7 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Pendants & Chains",
-  "material": "18K Gold Plated Stainless Steel",
+  "material": "18K Gold Plated 316 Stainless Steel",
   "purity": "Anti-Tarnish",
   "weight": "4.0g",
   "inStock": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace1.jpeg"
   ],
-  "description": "A chic minimalist necklace featuring a delicate rectangular crystal pendant on a gold-plated chain. Perfect for everyday wear. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "description": "A chic minimalist necklace featuring a delicate rectangular crystal pendant on a gold-plated chain. Perfect for everyday wear. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "minimalist"
 }

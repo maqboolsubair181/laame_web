@@ -6,7 +6,7 @@
   "salePrice": null,
   "category": "Bracelets",
   "subcategory": "Chain",
-  "material": "18K Gold Plated Stainless Steel",
+  "material": "18K Gold Plated 316 Stainless Steel",
   "purity": "Anti-Tarnish",
   "weight": "8.5g",
   "inStock": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/bracelet1.png"
   ],
-  "description": "An exquisite floral crystal bracelet perfect for special occasions. Designed to shine elegantly on your wrist. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "description": "An exquisite floral crystal bracelet perfect for special occasions. Designed to shine elegantly on your wrist. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "floral"
 }

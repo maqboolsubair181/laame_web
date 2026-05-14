@@ -6,7 +6,7 @@
   "salePrice": null,
   "category": "Rings",
   "subcategory": "Statement",
-  "material": "18K Gold Plated Stainless Steel",
+  "material": "18K Gold Plated 316 Stainless Steel",
   "purity": "Anti-Tarnish",
   "weight": "3.2g",
   "inStock": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/rings1.jpg"
   ],
-  "description": "Beautiful 18K gold-plated ring featuring a rose flower design. An elegant piece that serves as a beautiful statement for any outfit. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "description": "Beautiful 18K gold-plated ring featuring a rose flower design. An elegant piece that serves as a beautiful statement for any outfit. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "floral"
 }

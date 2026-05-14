@@ -6,7 +6,7 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Pendants & Chains",
-  "material": "18K Gold Plated Stainless Steel",
+  "material": "18K Gold Plated 304 Stainless Steel",
   "purity": "Anti-Tarnish",
   "weight": "8g",
   "inStock": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace11.png"
   ],
-  "description": "A charming vintage-style locket necklace, a beautiful keepsake for your cherished memories. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "description": "A charming vintage-style locket necklace, a beautiful keepsake for your cherished memories. All our products are 18k gold plated 304 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "vintage"
 }

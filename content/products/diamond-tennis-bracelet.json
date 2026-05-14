@@ -6,7 +6,7 @@
   "salePrice": null,
   "category": "Bracelets",
   "subcategory": "Tennis",
-  "material": "18K Gold Plated Stainless Steel",
+  "material": "18K Gold Plated 316 Stainless Steel",
   "purity": "Anti-Tarnish",
   "weight": "10g",
   "inStock": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/bracelet3.png"
   ],
-  "description": "A classic tennis bracelet studded with sparkling crystals, perfect for evening wear and special occasions. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "description": "A classic tennis bracelet studded with sparkling crystals, perfect for evening wear and special occasions. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "evening"
 }

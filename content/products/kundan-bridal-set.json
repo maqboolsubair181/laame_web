@@ -6,7 +6,7 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Chokers",
-  "material": "18K Gold Plated Stainless Steel",
+  "material": "18K Gold Plated 316 Stainless Steel",
   "purity": "Anti-Tarnish",
   "weight": "35g",
   "inStock": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace9.png"
   ],
-  "description": "A regal Kundan bridal set that promises to make you shine on your special day. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "description": "A regal Kundan bridal set that promises to make you shine on your special day. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "bridal"
 }

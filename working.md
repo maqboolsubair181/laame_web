@@ -19,7 +19,8 @@
 ## Product Catalogue Reality
 
 > ⚠️ CRITICAL — All products are NOT real gold/diamonds. They are:
-> - **18K Gold Plated** 316 & 304 Stainless Steel
+> - **18K Gold Plated** 316 Stainless Steel (default for most products)
+> - **18K Gold Plated** 304 Stainless Steel (only for Vintage Locket Necklace, Traditional Temple Necklace, Floral Crystal Necklace)
 > - **Anti-tarnish** and **hypoallergenic**
 > - All JSON descriptions and component copy reflect this correctly.
 > - Never revert to "22kt gold", "real diamonds", "BIS Hallmarked", or "certified" language anywhere.
@@ -204,7 +205,7 @@ Colours:
 - **Mobile menu fix**: `AppHeader.vue` mobile overlay moved outside `<header>` tag to prevent clipping from `backdrop-filter` containing block.
 - **WhatsApp total bug fixed**: `WhatsAppModal.vue` now accepts a `:qty` prop. Total is calculated as `price × qty`, fixing the bug where total showed ₹0.
 - **No returns policy**: `returns.vue` and product accordion both state explicitly that no returns or exchanges are accepted.
-- **Product material accuracy**: All JSON files and Vue copy updated — material = `18K Gold Plated Stainless Steel`, purity = `Anti-Tarnish`. No references to real gold/diamonds.
+- **Product material accuracy**: All JSON files and Vue copy updated — material = `18K Gold Plated 316 Stainless Steel` or `18K Gold Plated 304 Stainless Steel` depending on the product, purity = `Anti-Tarnish`. No references to real gold/diamonds.
 - **Scroll behavior fix (2026-05-12)**: Single scroll source in `app.vue` (threshold > 40px). PromoBar uses `translateY(-100%)` for smooth upward slide. AppHeader injects `scrolledPastPromo` from `app.vue` (no own scroll listener). Previously AppHeader had a conflicting duplicate listener causing it to appear to collapse instead of the PromoBar.
 - **Wishlist persistence fix (2026-05-10)**: Wishlist migrated from `useState` + manual `localStorage` to a proper Pinia store (`stores/wishlist.js`) with `persist: true`. `useWishlist.js` is now a thin backward-compatible wrapper. Cart was already using Pinia correctly.
 

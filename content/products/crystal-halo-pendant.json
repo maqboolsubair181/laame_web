@@ -6,7 +6,7 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Pendants & Chains",
-  "material": "18K Gold Plated Stainless Steel",
+  "material": "18K Gold Plated 316 Stainless Steel",
   "purity": "Anti-Tarnish",
   "weight": "7g",
   "inStock": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace12.png"
   ],
-  "description": "A dazzling crystal halo pendant that catches the light beautifully from every angle. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "description": "A dazzling crystal halo pendant that catches the light beautifully from every angle. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "evening"
 }

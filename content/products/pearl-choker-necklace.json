@@ -6,7 +6,7 @@
   "salePrice": null,
   "category": "Necklaces",
   "subcategory": "Chokers",
-  "material": "18K Gold Plated Stainless Steel",
+  "material": "18K Gold Plated 316 Stainless Steel",
   "purity": "Anti-Tarnish",
   "weight": "15g",
   "inStock": true,
@@ -20,6 +20,6 @@
   "images": [
     "/images/products/necklace5.png"
   ],
-  "description": "A sophisticated pearl choker necklace that brings a timeless elegance to any outfit. All our products are 18k gold plated 316 and 304 stainless steel, completely anti-tarnish and hypoallergenic.",
+  "description": "A sophisticated pearl choker necklace that brings a timeless elegance to any outfit. All our products are 18k gold plated 316 stainless steel, completely anti-tarnish and hypoallergenic.",
   "collection": "classic"
 }
