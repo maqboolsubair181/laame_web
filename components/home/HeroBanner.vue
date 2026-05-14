@@ -44,11 +44,11 @@
           </TransitionGroup>
 
           <!-- Floating tag -->
-          <div class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-3 border-l-2 border-[#B8942E] z-10">
+          <NuxtLink to="/shop/golden-airtick-pendant" class="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-3 border-l-2 border-[#B8942E] z-10 hover:bg-white transition-colors duration-300 block">
             <p class="text-[10px] tracking-[0.15em] uppercase text-[#7A7A7A] mb-0.5">Bestseller</p>
-            <p class="font-serif text-base text-[#1C1C1C]">Golden Airtick Pendant</p>
-            <p class="text-xs text-[#B8942E] mt-0.5">₹1,900</p>
-          </div>
+            <p class="font-serif text-base text-[#1C1C1C]">Golden Airtick Necklace</p>
+            <p class="text-xs text-[#B8942E] mt-0.5">₹189</p>
+          </NuxtLink>
 
           <!-- Slide dots -->
           <div class="absolute bottom-6 right-6 flex gap-2 z-10">
