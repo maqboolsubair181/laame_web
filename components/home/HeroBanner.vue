@@ -77,7 +77,7 @@
 <script setup>
 const slides = [
   { src: '/images/cover1.png', alt: 'Laame Jewels — Handcrafted Gold Jewellery' },
-  { src: '/images/cover4.jpg', alt: 'Laame Jewels — New Collection' },
+  { src: '/images/cover4.png', alt: 'Laame Jewels — New Collection' },
   { src: '/images/cover5.webp', alt: 'Laame Jewels — Premium Crystals' },
 ]
 

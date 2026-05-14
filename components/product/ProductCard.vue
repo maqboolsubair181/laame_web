@@ -34,7 +34,6 @@
     </div>
 
     <div class="mt-3">
-      <p class="text-[10px] tracking-[0.15em] text-[#7A7A7A] uppercase mb-1">{{ product.material }}</p>
       <h3 class="name">{{ product.name }}</h3>
       <div class="flex items-baseline gap-2 mt-1">
         <span v-if="product.salePrice" class="text-sm font-medium text-[#B8942E]">
