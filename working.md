@@ -212,7 +212,9 @@ Colours:
 - **Wishlist persistence fix (2026-05-10)**: Wishlist migrated from `useState` + manual `localStorage` to a proper Pinia store (`stores/wishlist.js`) with `persist: true`. `useWishlist.js` is now a thin backward-compatible wrapper. Cart was already using Pinia correctly.
 - **Layout & Padding fix (2026-05-16)**: Removed hardcoded `pt-[100px]` from all page wrappers since `app.vue` dynamically handles global `main` padding based on header state, fixing the double-padding space issue. Reduced `py-20` to `py-10` on mobile in `HeroBanner.vue`.
 - **Wishlist Button Alignment (2026-05-16)**: Moved the Wishlist button next to the Qty selector in `[slug].vue` to make it inline.
-- **PromoBar Update (2026-05-16)**: Updated `PromoBar.vue` to only show the "New Collection Available — Explore Now" message.
+- **PromoBar Update (2026-05-16)**: Updated `PromoBar.vue` to show "New Collection Available — Explore Now" and "Free Delivery on Orders above ₹500". Text is truncated and responsive to prevent wrapping to a second line.
+- **AppHeader Wrapping Fix (2026-05-16)**: Added `whitespace-nowrap` to Logo text in `AppHeader.vue` and prevented `PromoBar.vue` text wrapping to avoid clashing components on small mobile devices.
+- **Combo Product Slider (2026-05-16)**: Added an automatic image slider in `ProductCard.vue` specifically for products in the 'Combos' category. It cycles images every 2.5 seconds using an interval on mount.
 
 ---
 

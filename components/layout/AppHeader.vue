@@ -21,15 +21,15 @@
         </button>
 
         <!-- Logo -->
-        <NuxtLink to="/" class="flex items-center gap-2.5 shrink-0">
+        <NuxtLink to="/" class="flex items-center gap-2.5 shrink-0 min-w-0">
           <NuxtImg
             src="/images/jewel.png"
             alt="LaaMe Jewels"
             width="36"
             height="36"
-            class="w-8 h-8 md:w-9 md:h-9 object-contain"
+            class="w-8 h-8 md:w-9 md:h-9 object-contain shrink-0"
           />
-          <span class="font-serif text-xl md:text-2xl text-[#1C1C1C] tracking-wide">LaaMe Jewels</span>
+          <span class="font-serif text-xl md:text-2xl text-[#1C1C1C] tracking-wide whitespace-nowrap truncate">LaaMe Jewels</span>
         </NuxtLink>
 
         <!-- Desktop Nav -->

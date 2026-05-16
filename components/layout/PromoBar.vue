@@ -5,8 +5,8 @@
       scrolledPastPromo ? '-translate-y-full' : 'translate-y-0',
     ]"
   >
-    <div class="bg-[#B8942E] py-2.5 px-4 text-center">
-      <p class="text-[11px] tracking-[0.15em] uppercase text-white font-medium">
+    <div class="bg-[#B8942E] py-2.5 px-4 text-center overflow-hidden">
+      <p class="text-[9px] sm:text-[11px] tracking-wider sm:tracking-[0.15em] uppercase text-white font-medium truncate px-4">
         {{ messages[currentIndex] }}
       </p>
       <div class="absolute right-4 top-1/2 -translate-y-1/2 flex gap-1">
@@ -27,6 +27,7 @@ const scrolledPastPromo = inject('scrolledPastPromo', ref(false))
 
 const messages = [
   'New Collection Available — Explore Now',
+  'Free Delivery on Orders above ₹500',
 ]
 
 const currentIndex = ref(0)

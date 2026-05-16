@@ -23,7 +23,24 @@
         </svg>
       </button>
 
+      <!-- Image Slider for Combos -->
+      <template v-if="product.category === 'Combos' && product.images && product.images.length > 1">
+        <TransitionGroup name="card-fade" tag="div" class="w-full h-full relative">
+          <NuxtImg
+            v-for="(img, idx) in product.images"
+            v-show="currentImage === idx"
+            :key="img"
+            :src="img"
+            :alt="product.name"
+            class="card-img absolute inset-0 w-full h-full object-cover"
+            width="400"
+            height="533"
+            loading="lazy"
+          />
+        </TransitionGroup>
+      </template>
       <NuxtImg
+        v-else
         :src="product.images?.[0] || '/images/placeholder.jpg'"
         :alt="product.name"
         class="card-img"
@@ -67,4 +84,32 @@ const wishlist = useWishlist()
 const goToProduct = () => {
   navigateTo(`/shop/${props.product.slug}`)
 }
+
+const currentImage = ref(0)
+let slideTimer = null
+
+onMounted(() => {
+  if (props.product.category === 'Combos' && props.product.images?.length > 1) {
+    slideTimer = setInterval(() => {
+      currentImage.value = (currentImage.value + 1) % props.product.images.length
+    }, 2500)
+  }
+})
+
+onUnmounted(() => {
+  if (slideTimer) clearInterval(slideTimer)
+})
 </script>
+
+<style scoped>
+.card-fade-enter-active,
+.card-fade-leave-active {
+  transition: opacity 0.8s ease;
+  position: absolute;
+  inset: 0;
+}
+.card-fade-enter-from,
+.card-fade-leave-to {
+  opacity: 0;
+}
+</style>
