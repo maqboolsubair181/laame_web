@@ -26,8 +26,7 @@
 const scrolledPastPromo = inject('scrolledPastPromo', ref(false))
 
 const messages = [
-  'Free shipping on orders above ₹1000',
-  'New Collection Now Available — Explore Now',
+  'New Collection Available — Explore Now',
 ]
 
 const currentIndex = ref(0)

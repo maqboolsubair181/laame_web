@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-[100px] min-h-screen bg-[#FAF8F5]">
+  <div class="min-h-screen bg-[#FAF8F5]">
     <!-- Loading skeleton -->
     <div v-if="pending" class="max-w-[1400px] mx-auto px-4 md:px-8 py-12">
       <div class="skeleton h-3 w-48 mb-10" />
@@ -72,21 +72,24 @@
 
             <p class="text-[#7A7A7A] text-sm leading-relaxed mb-8">{{ product.description }}</p>
 
-            <!-- Qty Selector -->
-            <div class="flex items-center gap-4 mb-6">
-              <span class="text-xs uppercase tracking-[0.1em] text-[#7A7A7A]">Qty</span>
-              <div class="flex items-center border border-[#E8D5A3]">
-                <button
-                  class="w-9 h-9 flex items-center justify-center text-[#1C1C1C] hover:bg-[#F0ECE4] transition-colors text-xl leading-none"
-                  @click="qty = Math.max(1, qty - 1)"
-                  :disabled="qty <= 1"
-                >−</button>
-                <span class="w-10 text-center text-sm">{{ qty }}</span>
-                <button
-                  class="w-9 h-9 flex items-center justify-center text-[#1C1C1C] hover:bg-[#F0ECE4] transition-colors"
-                  @click="qty++"
-                >+</button>
+            <!-- Qty Selector & Wishlist -->
+            <div class="flex items-center gap-6 mb-6">
+              <div class="flex items-center gap-4">
+                <span class="text-xs uppercase tracking-[0.1em] text-[#7A7A7A]">Qty</span>
+                <div class="flex items-center border border-[#E8D5A3]">
+                  <button
+                    class="w-9 h-9 flex items-center justify-center text-[#1C1C1C] hover:bg-[#F0ECE4] transition-colors text-xl leading-none"
+                    @click="qty = Math.max(1, qty - 1)"
+                    :disabled="qty <= 1"
+                  >−</button>
+                  <span class="w-10 text-center text-sm">{{ qty }}</span>
+                  <button
+                    class="w-9 h-9 flex items-center justify-center text-[#1C1C1C] hover:bg-[#F0ECE4] transition-colors"
+                    @click="qty++"
+                  >+</button>
+                </div>
               </div>
+              <WishlistButton :product-id="product.id" />
             </div>
 
             <!-- Actions -->
@@ -98,7 +101,6 @@
               >
                 {{ addedToCart ? 'Added to Cart ✓' : 'Add to Cart' }}
               </button>
-              <WishlistButton :product-id="product.id" />
               <WhatsAppButton @click="showWhatsApp = true" />
             </div>
 

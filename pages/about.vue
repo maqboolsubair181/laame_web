@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-[100px] min-h-screen bg-[#FAF8F5]">
+  <div class="min-h-screen bg-[#FAF8F5]">
     <!-- Hero -->
     <div class="relative overflow-hidden bg-[#1C1C1C]">
       <div class="absolute inset-0 opacity-30">

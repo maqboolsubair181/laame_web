@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-[100px] min-h-screen bg-[#FAF8F5]">
+  <div class="min-h-screen bg-[#FAF8F5]">
     <div class="max-w-[1400px] mx-auto px-4 md:px-8 py-12 md:py-16">
       <div class="mb-10">
         <span class="label">{{ route.params.slug }}</span>
