@@ -13,7 +13,7 @@
     </div>
 
     <!-- Thumbnails -->
-    <div v-if="images.length > 1" class="flex gap-2 mt-3">
+    <div v-if="images.length > 1" class="flex flex-wrap gap-2 mt-3">
       <button
         v-for="(img, i) in images"
         :key="i"

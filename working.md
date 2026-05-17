@@ -1,6 +1,6 @@
 # Laame Jewels — Working Document
 
-> Last updated: 2026-05-16
+> Last updated: 2026-05-17
 > This file is meant for handoff to another agent or session. It documents everything built, what works, and what remains.
 
 ---
@@ -154,7 +154,7 @@
 | `public/images/cover3.webp` | `pages/about.vue` |
 | `public/images/cover4.jpg` | `HeroBanner.vue` slide 2 (updated 2026-05-12 from LAAME WEB PIC) |
 | `public/images/cover5.webp` | `HeroBanner.vue` slide 3 |
-| `public/images/jewel.png` | AppHeader + AppFooter logos |
+| `public/images/logo_round.png` | AppHeader + AppFooter logos (updated 2026-05-17) |
 | `public/images/products/earrings1.jpg` | Elegant Crystal Stone Dangler |
 | `public/images/products/rings1.jpg` | 18K Gold-Plated Rose Flower |
 | `public/images/products/bracelet1.png` | Floral Crystal Bracelet |
@@ -215,6 +215,9 @@ Colours:
 - **PromoBar Update (2026-05-16)**: Updated `PromoBar.vue` to show "New Collection Available — Explore Now" and "Free Delivery on Orders above ₹500". Text is truncated and responsive to prevent wrapping to a second line.
 - **AppHeader Wrapping Fix (2026-05-16)**: Added `whitespace-nowrap` to Logo text in `AppHeader.vue` and prevented `PromoBar.vue` text wrapping to avoid clashing components on small mobile devices.
 - **Combo Product Slider (2026-05-16)**: Added an automatic image slider in `ProductCard.vue` specifically for products in the 'Combos' category. It cycles images every 2.5 seconds using an interval on mount.
+- **Logo Update (2026-05-17)**: Replaced `jewel.png` with `logo_round.png` in `AppHeader.vue` and `AppFooter.vue`.
+- **Product Descriptions Fix (2026-05-17)**: Unified all product JSON descriptions to match their updated names correctly, removing mismatched content from a previous batch rename.
+- **Mobile Overflow Fix (2026-05-17)**: Added `flex-wrap` to the thumbnails container in `ProductGallery.vue` to prevent horizontal scrolling and border mismatch on mobile devices.
 
 ---
 

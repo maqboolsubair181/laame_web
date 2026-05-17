@@ -23,7 +23,7 @@
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center gap-2.5 shrink-0 min-w-0">
           <NuxtImg
-            src="/images/jewel.png"
+            src="/images/logo_round.png"
             alt="LaaMe Jewels"
             width="36"
             height="36"
